@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <last_registered_on>2022-11-29 09:50:13</last_registered_on>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>Sam.Kaar</sys_created_by>
+        <sys_created_on>2022-11-29 06:50:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>41d11b401b635554152362c5604bcbbc</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>dFRlxKJwRK-2eliw3zbxvR:APA91bGabm0YgDodDuR-PXt84b9IUNKptM3E5Nz2IU3maJeifTXHsLVy8y_EOzTW8S_VlRO0LpHpQ93EVmLKoCuyMa7Qu4BWcbNvOuXTXraTwJvbulha37t-bTPb8NWos_wLqzPn8CEx</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Mobile Application">05ed2fb177002300258da2e2c81061c2</sys_push_application_id>
+        <sys_push_platform_id display_value="Google">53e75f30ff0002009738ffffffffff12</sys_push_platform_id>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_41d11b401b635554152362c5604bcbbc</sys_update_name>
+        <sys_updated_by>Sam.Kaar</sys_updated_by>
+        <sys_updated_on>2022-11-29 09:50:13</sys_updated_on>
+        <sys_user_id display_value="Sam Kaar (Sam.Kaar)">f50d8cb81b175190152362c5604bcb78</sys_user_id>
+        <token>dFRlxKJwRK-2eliw3zbxvR:APA91bGabm0YgDodDuR-PXt84b9IUNKptM3E5Nz2IU3maJeifTXHsLVy8y_EOzTW8S_VlRO0LpHpQ93EVmLKoCuyMa7Qu4BWcbNvOuXTXraTwJvbulha37t-bTPb8NWos_wLqzPn8CEx</token>
+    </sys_push_notif_app_install>
+</record_update>

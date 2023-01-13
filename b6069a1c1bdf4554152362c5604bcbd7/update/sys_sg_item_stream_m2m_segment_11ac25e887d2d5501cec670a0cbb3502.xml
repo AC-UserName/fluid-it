@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_segment">
+    <sys_sg_item_stream_m2m_segment action="INSERT_OR_UPDATE">
+        <item_stream display_value="Appointment INC outdated list ">5168e52087d2d5501cec670a0cbb35bb</item_stream>
+        <segment display_value="Incidents">268ce5e887d2d5501cec670a0cbb35dd</segment>
+        <sys_class_name>sys_sg_item_stream_m2m_segment</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-09-29 09:27:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>11ac25e887d2d5501cec670a0cbb3502</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_segment_11ac25e887d2d5501cec670a0cbb3502</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-09-29 09:27:14</sys_updated_on>
+    </sys_sg_item_stream_m2m_segment>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="DELETE">
+        <button display_value="Remove list">5940e2f387b21d101cec670a0cbb35fb</button>
+        <item_parameter display_value="list">6490eef387b21d101cec670a0cbb35f9</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-11-03 12:59:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e5ec267f87f21d101cec670a0cbb350b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6490eef387b21d101cec670a0cbb35f9</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_e5ec267f87f21d101cec670a0cbb350b</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-11-03 12:59:37</sys_updated_on>
+        <ui_parameter display_value="Remove list">8ddcee3f87f21d101cec670a0cbb350c</ui_parameter>
+    </sys_sg_action_param_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_action_param_map_e5ec267f87f21d101cec670a0cbb350b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map"><sys_sg_action_param_map action="INSERT_OR_UPDATE"><button display_value="Remove list">5940e2f387b21d101cec670a0cbb35fb</button><item_parameter display_value="list">6490eef387b21d101cec670a0cbb35f9</item_parameter><sys_class_name>sys_sg_action_param_map</sys_class_name><sys_created_by>cvigneron</sys_created_by><sys_created_on>2022-11-03 12:59:37</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>e5ec267f87f21d101cec670a0cbb350b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>6490eef387b21d101cec670a0cbb35f9</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_action_param_map_e5ec267f87f21d101cec670a0cbb350b</sys_update_name><sys_updated_by>cvigneron</sys_updated_by><sys_updated_on>2022-11-03 12:59:37</sys_updated_on><ui_parameter display_value="Remove list">8ddcee3f87f21d101cec670a0cbb350c</ui_parameter></sys_sg_action_param_map></record_update>]]></payload>
+        <payload_hash>987894720</payload_hash>
+        <record_name>6490eef387b21d101cec670a0cbb35f9</record_name>
+        <reverted_from/>
+        <source>a40d9323872a19d01cec670a0cbb3595</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-11-03 12:59:37</sys_created_on>
+        <sys_id>0bec667f87f21d101cec670a0cbb3557</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1843d935a180000001</sys_recorded_at>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-11-03 12:59:37</sys_updated_on>
+        <type>Action parameters mapping</type>
+        <update_guid>03ec667f0af21d109351352510bcbe57</update_guid>
+        <update_guid_history>03ec667f0af21d109351352510bcbe57:987894720</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-11-03 13:58:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_action_param_map">sys_sg_action_param_map</sys_db_object>
+        <sys_id>0ab44d5a15c84e5089501c20901f8531</sys_id>
+        <sys_metadata>e5ec267f87f21d101cec670a0cbb350b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6490eef387b21d101cec670a0cbb35f9</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_action_param_map_e5ec267f87f21d101cec670a0cbb350b</sys_update_name>
+        <sys_update_version display_value="sys_sg_action_param_map_e5ec267f87f21d101cec670a0cbb350b">0bec667f87f21d101cec670a0cbb3557</sys_update_version>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-11-03 13:58:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

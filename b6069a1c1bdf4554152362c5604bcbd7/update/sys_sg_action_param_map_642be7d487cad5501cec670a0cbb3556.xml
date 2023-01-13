@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Reassign task">7088af5087cad5501cec670a0cbb350f</button>
+        <item_parameter display_value="assigned_to">070a235487cad5501cec670a0cbb35a1</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-09-16 13:45:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>642be7d487cad5501cec670a0cbb3556</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>070a235487cad5501cec670a0cbb35a1</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_642be7d487cad5501cec670a0cbb3556</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-09-16 13:45:41</sys_updated_on>
+        <ui_parameter display_value="Assigned to">4b3927d087cad5501cec670a0cbb3520</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

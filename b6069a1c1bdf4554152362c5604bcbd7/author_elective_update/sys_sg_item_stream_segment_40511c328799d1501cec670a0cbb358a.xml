@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_segment">
+    <sys_sg_item_stream_segment action="DELETE">
+        <empty_state/>
+        <interleave_order_direction>asc</interleave_order_direction>
+        <name>My tasks Screen Segment</name>
+        <order>10</order>
+        <screen display_value="My tasks">44511c328799d1501cec670a0cbb3508</screen>
+        <sys_class_name>sys_sg_item_stream_segment</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-08-17 09:31:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>40511c328799d1501cec670a0cbb358a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My tasks Screen Segment</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_item_stream_segment_40511c328799d1501cec670a0cbb358a</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-08-17 09:31:39</sys_updated_on>
+    </sys_sg_item_stream_segment>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_item_stream_segment_40511c328799d1501cec670a0cbb358a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_segment"><sys_sg_item_stream_segment action="INSERT_OR_UPDATE"><empty_state/><interleave_order_direction>asc</interleave_order_direction><name>My tasks Screen Segment</name><order>10</order><screen display_value="My tasks">44511c328799d1501cec670a0cbb3508</screen><sys_class_name>sys_sg_item_stream_segment</sys_class_name><sys_created_by>cvigneron</sys_created_by><sys_created_on>2022-08-17 09:31:39</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>40511c328799d1501cec670a0cbb358a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My tasks Screen Segment</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_item_stream_segment_40511c328799d1501cec670a0cbb358a</sys_update_name><sys_updated_by>cvigneron</sys_updated_by><sys_updated_on>2022-08-17 09:31:39</sys_updated_on></sys_sg_item_stream_segment></record_update>]]></payload>
+        <payload_hash>-1197416171</payload_hash>
+        <record_name>My tasks Screen Segment</record_name>
+        <reverted_from/>
+        <source>3267c952874dddd01cec670a0cbb35b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-08-17 09:31:39</sys_created_on>
+        <sys_id>1c511c328799d1501cec670a0cbb358c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182ab24ea020000001</sys_recorded_at>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-08-17 09:31:39</sys_updated_on>
+        <type>Screen segment</type>
+        <update_guid>04511c32d799d150148f44176144b48c</update_guid>
+        <update_guid_history>04511c32d799d150148f44176144b48c:-1197416171</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-08-17 09:36:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_item_stream_segment">sys_sg_item_stream_segment</sys_db_object>
+        <sys_id>0f4f5f5eba0d4f25bd3722e8ee1fa779</sys_id>
+        <sys_metadata>40511c328799d1501cec670a0cbb358a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My tasks Screen Segment</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_item_stream_segment_40511c328799d1501cec670a0cbb358a</sys_update_name>
+        <sys_update_version display_value="sys_sg_item_stream_segment_40511c328799d1501cec670a0cbb358a">1c511c328799d1501cec670a0cbb358c</sys_update_version>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-08-17 09:36:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_param_map">
+    <sys_sg_screen_param_map action="INSERT_OR_UPDATE">
+        <item_parameter display_value="sys_id">8baa6472875dd1501cec670a0cbb35f6</item_parameter>
+        <screen display_value="Consultation d'un audit">bddaec72875dd1501cec670a0cbb358f</screen>
+        <sys_class_name>sys_sg_screen_param_map</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-08-17 11:23:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fddaec72875dd1501cec670a0cbb3596</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8baa6472875dd1501cec670a0cbb35f6</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_screen_param_map_fddaec72875dd1501cec670a0cbb3596</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-08-17 11:23:10</sys_updated_on>
+        <ui_parameter display_value="sys_id">b5daec72875dd1501cec670a0cbb3592</ui_parameter>
+    </sys_sg_screen_param_map>
+</record_update>

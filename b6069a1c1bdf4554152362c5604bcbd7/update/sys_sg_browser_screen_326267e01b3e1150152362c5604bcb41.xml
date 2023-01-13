@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_browser_screen">
+    <sys_sg_browser_screen action="INSERT_OR_UPDATE">
+        <application_roles/>
+        <available_offline>true</available_offline>
+        <data_item/>
+        <description>go to remove assets from list catalog item</description>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <external_browser>false</external_browser>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hidden>false</hidden>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>true</hide_screen_name>
+        <icon display_value="Bell">c2fc8da2b72200108223e126de11a92b</icon>
+        <name>remove assets from list cat item</name>
+        <order/>
+        <parent/>
+        <parent_table/>
+        <relative_url>false</relative_url>
+        <roles_override/>
+        <sys_class_name>sys_sg_browser_screen</sys_class_name>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2022-10-24 14:33:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>326267e01b3e1150152362c5604bcb41</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>remove assets from list cat item</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_browser_screen_326267e01b3e1150152362c5604bcb41</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-11-17 09:30:35</sys_updated_on>
+        <url>/mesp?id=sc_cat_item&amp;sys_id=a678fabb87b61d101cec670a0cbb3596&amp;sysparm_list_id={{sys_id}}</url>
+    </sys_sg_browser_screen>
+</record_update>

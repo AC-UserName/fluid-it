@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template">
+    <sys_sg_view_template action="DELETE">
+        <active>true</active>
+        <description>Asset</description>
+        <name>EDF - Asset</name>
+        <preview_image/>
+        <root_view_attrs_json/>
+        <sys_class_name>sys_sg_view_template</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-08-29 06:38:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>52dcd12a87e551141cec670a0cbb3547</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>EDF - Asset</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_view_template_52dcd12a87e551141cec670a0cbb3547</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-08-29 06:56:54</sys_updated_on>
+        <template_json>{"Type":"ViewGroup","Margin":{"Top":15,"Bottom":17},"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Id":"Root","Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Margin":{"Right":""},"Height":"auto","BackgroundColor":"#FFFFFF","Id":"viewgroup_08","Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","BackgroundColor":"#D9EBEE","Id":"viewgroup_11","Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_12","Id":"text_12"},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_13","Id":"text_13"}]}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_06","Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_10","Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_10","Id":"text_10"},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_11","Id":"text_11"}]}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_07","Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_06","Id":"text_06"}]}]}</template_json>
+    </sys_sg_view_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_view_template_52dcd12a87e551141cec670a0cbb3547</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template"><sys_sg_view_template action="INSERT_OR_UPDATE"><active>true</active><description>Asset</description><name>EDF - Asset</name><preview_image/><root_view_attrs_json/><sys_class_name>sys_sg_view_template</sys_class_name><sys_created_by>cvigneron</sys_created_by><sys_created_on>2022-08-29 06:38:53</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>52dcd12a87e551141cec670a0cbb3547</sys_id><sys_mod_count>5</sys_mod_count><sys_name>EDF - Asset</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_view_template_52dcd12a87e551141cec670a0cbb3547</sys_update_name><sys_updated_by>cvigneron</sys_updated_by><sys_updated_on>2022-08-29 06:56:54</sys_updated_on><template_json>{"Type":"ViewGroup","Margin":{"Top":15,"Bottom":17},"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Id":"Root","Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Margin":{"Right":""},"Height":"auto","BackgroundColor":"#FFFFFF","Id":"viewgroup_08","Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","BackgroundColor":"#D9EBEE","Id":"viewgroup_11","Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_12","Id":"text_12"},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_13","Id":"text_13"}]}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_06","Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_10","Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_10","Id":"text_10"},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_11","Id":"text_11"}]}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_07","Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_06","Id":"text_06"}]}]}</template_json></sys_sg_view_template></record_update>]]></payload>
+        <payload_hash>-649848245</payload_hash>
+        <record_name>EDF - Asset</record_name>
+        <reverted_from/>
+        <source>3267c952874dddd01cec670a0cbb35b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-08-29 06:56:54</sys_created_on>
+        <sys_id>16f0e1ee87e551141cec670a0cbb3578</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182e8638db70000001</sys_recorded_at>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-08-29 06:56:54</sys_updated_on>
+        <type>Card template</type>
+        <update_guid>daf0e1ee40e55114cc915cfb2cfc3277</update_guid>
+        <update_guid_history>daf0e1ee40e55114cc915cfb2cfc3277:-649848245,4770a96e84e551146758f5b8bb03ad5f:2001367654,67df516e41e551140cbd934c1de82cc0:-1093099052,995f1daa30e55114c3c032f5d739b383:-2099150671,b72d516a1de5511463f76fc63744a015:219488311,1edc552a16e55114fb965124ea7c5eab:1415017364</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-08-29 07:23:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_view_template">sys_sg_view_template</sys_db_object>
+        <sys_id>7f873da40b9e441e94ef66b2bd3c6831</sys_id>
+        <sys_metadata>52dcd12a87e551141cec670a0cbb3547</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EDF - Asset</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_view_template_52dcd12a87e551141cec670a0cbb3547</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_template_52dcd12a87e551141cec670a0cbb3547">16f0e1ee87e551141cec670a0cbb3578</sys_update_version>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-08-29 07:23:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

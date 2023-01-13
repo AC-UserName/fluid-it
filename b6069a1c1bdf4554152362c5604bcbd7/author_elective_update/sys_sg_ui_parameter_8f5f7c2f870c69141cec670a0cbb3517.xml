@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="DELETE">
+        <button display_value="Asset update">b3d141d787d0dd501cec670a0cbb350d</button>
+        <button_parent_table>alm_hardware</button_parent_table>
+        <carried>false</carried>
+        <constant/>
+        <default_value/>
+        <default_value_type>source_field</default_value_type>
+        <field_name>u_rank</field_name>
+        <input_source>user</input_source>
+        <input_style>inline</input_style>
+        <input_type>list</input_type>
+        <mandatory>false</mandatory>
+        <max_entries/>
+        <multi_entry>false</multi_entry>
+        <multi_select>false</multi_select>
+        <name>Grade</name>
+        <order>20</order>
+        <parameter_type>button</parameter_type>
+        <placeholder/>
+        <screen/>
+        <search_type>starts_with</search_type>
+        <source_field>u_rank</source_field>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2023-01-03 13:40:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8f5f7c2f870c69141cec670a0cbb3517</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Grade</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_8f5f7c2f870c69141cec670a0cbb3517</sys_update_name>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2023-01-03 16:54:43</sys_updated_on>
+        <table_name>alm_hardware</table_name>
+        <virtual_field_value>false</virtual_field_value>
+    </sys_sg_ui_parameter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_ui_parameter_8f5f7c2f870c69141cec670a0cbb3517</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter"><sys_sg_ui_parameter action="INSERT_OR_UPDATE"><button display_value="Asset update">b3d141d787d0dd501cec670a0cbb350d</button><button_parent_table>alm_hardware</button_parent_table><carried>false</carried><constant/><default_value/><default_value_type>source_field</default_value_type><field_name>u_rank</field_name><input_source>user</input_source><input_style>inline</input_style><input_type>list</input_type><mandatory>false</mandatory><max_entries/><multi_entry>false</multi_entry><multi_select>false</multi_select><name>Grade</name><order>20</order><parameter_type>button</parameter_type><placeholder/><screen/><search_type>starts_with</search_type><source_field>u_rank</source_field><sys_class_name>sys_sg_ui_parameter</sys_class_name><sys_created_by>GD073B5L</sys_created_by><sys_created_on>2023-01-03 13:40:56</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>8f5f7c2f870c69141cec670a0cbb3517</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Grade</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_ui_parameter_8f5f7c2f870c69141cec670a0cbb3517</sys_update_name><sys_updated_by>GD073B5L</sys_updated_by><sys_updated_on>2023-01-03 16:54:43</sys_updated_on><table_name>alm_hardware</table_name><virtual_field_value>false</virtual_field_value></sys_sg_ui_parameter></record_update>]]></payload>
+        <payload_hash>-1817582755</payload_hash>
+        <record_name>Grade</record_name>
+        <reverted_from/>
+        <source>f83b7ce3870c69141cec670a0cbb35f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2023-01-03 16:54:43</sys_created_on>
+        <sys_id>71bbe5e387c0a9141cec670a0cbb3539</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185788e821f0000001</sys_recorded_at>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2023-01-03 16:54:43</sys_updated_on>
+        <type>UI parameter</type>
+        <update_guid>39bbe5e348c0a9145217596fcde4a338</update_guid>
+        <update_guid_history>39bbe5e348c0a9145217596fcde4a338:-1817582755,b767cd6fb94c69146926a500f25c2811:-2079581149,819049afc80c69148146bb1c93b79ef9:1467621303,428ff46f030c69141a5ffdcea3d09fc3:1245066769,075f7c2f130c69147304a13185c1421a:25775941</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2023-01-08 08:09:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_ui_parameter">sys_sg_ui_parameter</sys_db_object>
+        <sys_id>441a998e348c4b0c8188c312c2e992e1</sys_id>
+        <sys_metadata>8f5f7c2f870c69141cec670a0cbb3517</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Grade</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_parameter_8f5f7c2f870c69141cec670a0cbb3517</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_parameter_8f5f7c2f870c69141cec670a0cbb3517">71bbe5e387c0a9141cec670a0cbb3539</sys_update_version>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2023-01-08 08:09:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="DELETE">
+        <description/>
+        <execution_script/>
+        <name>test CVI</name>
+        <parameter_screen/>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-12-05 08:44:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e0756e4a87ab59101cec670a0cbb3555</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>test CVI</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_e0756e4a87ab59101cec670a0cbb3555</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-12-05 08:49:13</sys_updated_on>
+        <table>incident</table>
+        <template>state={{state}}^hold_reason={{on_hold}}^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_write_back_action_item_e0756e4a87ab59101cec670a0cbb3555</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item"><sys_sg_write_back_action_item action="INSERT_OR_UPDATE"><description/><execution_script/><name>test CVI</name><parameter_screen/><query_condition/><sys_class_name>sys_sg_write_back_action_item</sys_class_name><sys_created_by>cvigneron</sys_created_by><sys_created_on>2022-12-05 08:44:54</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>e0756e4a87ab59101cec670a0cbb3555</sys_id><sys_mod_count>1</sys_mod_count><sys_name>test CVI</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_write_back_action_item_e0756e4a87ab59101cec670a0cbb3555</sys_update_name><sys_updated_by>cvigneron</sys_updated_by><sys_updated_on>2022-12-05 08:49:13</sys_updated_on><table>incident</table><template>state={{state}}^hold_reason={{on_hold}}^EQ</template><type>update</type><use_current_record_as_condition>true</use_current_record_as_condition><use_fields_for_ref_lookup>false</use_fields_for_ref_lookup></sys_sg_write_back_action_item></record_update>]]></payload>
+        <payload_hash>-573027932</payload_hash>
+        <record_name>test CVI</record_name>
+        <reverted_from/>
+        <source>b206525c1b138554152362c5604bcb0f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-12-05 08:49:13</sys_created_on>
+        <sys_id>c3766aca87ab59101cec670a0cbb3596</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184e179983b0000001</sys_recorded_at>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-12-05 08:49:13</sys_updated_on>
+        <type>Action item</type>
+        <update_guid>4b766aca52ab5910415ad695ac1bae95</update_guid>
+        <update_guid_history>4b766aca52ab5910415ad695ac1bae95:-573027932,c485624ab3ab591032e30efef4ef34e7:1116835901</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-12-14 14:21:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_write_back_action_item">sys_sg_write_back_action_item</sys_db_object>
+        <sys_id>0c1e3d8774d4414c85ec908c9fb04390</sys_id>
+        <sys_metadata>e0756e4a87ab59101cec670a0cbb3555</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test CVI</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_write_back_action_item_e0756e4a87ab59101cec670a0cbb3555</sys_update_name>
+        <sys_update_version display_value="sys_sg_write_back_action_item_e0756e4a87ab59101cec670a0cbb3555">c3766aca87ab59101cec670a0cbb3596</sys_update_version>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-12-14 14:21:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

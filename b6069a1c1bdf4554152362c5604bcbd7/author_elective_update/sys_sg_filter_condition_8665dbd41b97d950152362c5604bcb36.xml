@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_filter_condition">
+    <sys_sg_filter_condition action="DELETE">
+        <active>true</active>
+        <description/>
+        <label>Keyword</label>
+        <name>Asset in stock Keyword filter condition</name>
+        <sys_class_name>sys_sg_filter_condition</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-11-17 15:29:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8665dbd41b97d950152362c5604bcb36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Asset in stock Keyword filter condition</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_filter_condition_8665dbd41b97d950152362c5604bcb36</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-11-17 15:29:10</sys_updated_on>
+        <type display_value="String">1bcf83da73320010ed095a7b1bf6a7e2</type>
+    </sys_sg_filter_condition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_filter_condition_8665dbd41b97d950152362c5604bcb36</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_filter_condition"><sys_sg_filter_condition action="INSERT_OR_UPDATE"><active>true</active><description/><label>Keyword</label><name>Asset in stock Keyword filter condition</name><sys_class_name>sys_sg_filter_condition</sys_class_name><sys_created_by>cvigneron</sys_created_by><sys_created_on>2022-11-17 15:29:10</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>8665dbd41b97d950152362c5604bcb36</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Asset in stock Keyword filter condition</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_filter_condition_8665dbd41b97d950152362c5604bcb36</sys_update_name><sys_updated_by>cvigneron</sys_updated_by><sys_updated_on>2022-11-17 15:29:10</sys_updated_on><type display_value="String">1bcf83da73320010ed095a7b1bf6a7e2</type></sys_sg_filter_condition></record_update>]]></payload>
+        <payload_hash>316526010</payload_hash>
+        <record_name>Asset in stock Keyword filter condition</record_name>
+        <reverted_from/>
+        <source>b206525c1b138554152362c5604bcb0f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-11-17 15:29:10</sys_created_on>
+        <sys_id>8265dbd41b97d950152362c5604bcb38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184863549b20000001</sys_recorded_at>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-11-17 15:29:10</sys_updated_on>
+        <type>Filter Condition</type>
+        <update_guid>0e65dbd4c697d9505a65c269e5fa7737</update_guid>
+        <update_guid_history>0e65dbd4c697d9505a65c269e5fa7737:316526010</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-11-17 15:29:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_filter_condition">sys_sg_filter_condition</sys_db_object>
+        <sys_id>003ff7d613b24635800113a9e51a8a49</sys_id>
+        <sys_metadata>8665dbd41b97d950152362c5604bcb36</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Asset in stock Keyword filter condition</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_filter_condition_8665dbd41b97d950152362c5604bcb36</sys_update_name>
+        <sys_update_version display_value="sys_sg_filter_condition_8665dbd41b97d950152362c5604bcb36">8265dbd41b97d950152362c5604bcb38</sys_update_version>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-11-17 15:29:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

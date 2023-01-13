@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="DELETE">
+        <name>text_06_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-08-03 14:24:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f32ec5de874dddd01cec670a0cbb3522</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_06_element</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_f32ec5de874dddd01cec670a0cbb3522</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-08-03 14:24:56</sys_updated_on>
+        <view_config display_value="Asset in stock Record Screen Card">2391c30d1b2f0d90152362c5604bcb64</view_config>
+        <view_template_slot display_value="text_06">cb878d7041275010f877183fc9b8be59</view_template_slot>
+    </sys_sg_view_config_element>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_view_config_element_f32ec5de874dddd01cec670a0cbb3522</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element"><sys_sg_view_config_element action="INSERT_OR_UPDATE"><name>text_06_element</name><sys_class_name>sys_sg_view_config_element</sys_class_name><sys_created_by>cvigneron</sys_created_by><sys_created_on>2022-08-03 14:24:56</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>f32ec5de874dddd01cec670a0cbb3522</sys_id><sys_mod_count>0</sys_mod_count><sys_name>text_06_element</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_view_config_element_f32ec5de874dddd01cec670a0cbb3522</sys_update_name><sys_updated_by>cvigneron</sys_updated_by><sys_updated_on>2022-08-03 14:24:56</sys_updated_on><view_config display_value="Asset in stock Record Screen Card">2391c30d1b2f0d90152362c5604bcb64</view_config><view_template_slot display_value="text_06">cb878d7041275010f877183fc9b8be59</view_template_slot></sys_sg_view_config_element></record_update>]]></payload>
+        <payload_hash>538833131</payload_hash>
+        <record_name>text_06_element</record_name>
+        <reverted_from/>
+        <source>3267c952874dddd01cec670a0cbb35b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-08-03 14:24:57</sys_created_on>
+        <sys_id>b32ec5de874dddd01cec670a0cbb3524</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182641866b50000001</sys_recorded_at>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-08-03 14:24:57</sys_updated_on>
+        <type>Fichier d’application</type>
+        <update_guid>bb2ec5de514dddd09ad90482b0536323</update_guid>
+        <update_guid_history>bb2ec5de514dddd09ad90482b0536323:538833131</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-08-29 14:16:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_view_config_element">sys_sg_view_config_element</sys_db_object>
+        <sys_id>107cc49a39db4b1c8af963cdfeea8d90</sys_id>
+        <sys_metadata>f32ec5de874dddd01cec670a0cbb3522</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_06_element</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_view_config_element_f32ec5de874dddd01cec670a0cbb3522</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_config_element_f32ec5de874dddd01cec670a0cbb3522">b32ec5de874dddd01cec670a0cbb3524</sys_update_version>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-08-29 14:16:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

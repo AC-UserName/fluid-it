@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="DELETE">
+        <name>image_01_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-05-03 11:19:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6f61bea8875f0d901cec670a0cbb35dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>image_01_element</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_6f61bea8875f0d901cec670a0cbb35dc</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-05-03 11:19:18</sys_updated_on>
+        <view_config display_value="My pallet Card">fbc0bea4875f0d901cec670a0cbb357e</view_config>
+        <view_template_slot display_value="image_01">caf849b041275010f877183fc9b8be4e</view_template_slot>
+    </sys_sg_view_config_element>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_view_config_element_6f61bea8875f0d901cec670a0cbb35dc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element"><sys_sg_view_config_element action="INSERT_OR_UPDATE"><name>image_01_element</name><sys_class_name>sys_sg_view_config_element</sys_class_name><sys_created_by>cvigneron</sys_created_by><sys_created_on>2022-05-03 11:19:18</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>6f61bea8875f0d901cec670a0cbb35dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>image_01_element</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_view_config_element_6f61bea8875f0d901cec670a0cbb35dc</sys_update_name><sys_updated_by>cvigneron</sys_updated_by><sys_updated_on>2022-05-03 11:19:18</sys_updated_on><view_config display_value="My pallet Card">fbc0bea4875f0d901cec670a0cbb357e</view_config><view_template_slot display_value="image_01">caf849b041275010f877183fc9b8be4e</view_template_slot></sys_sg_view_config_element></record_update>]]></payload>
+        <payload_hash>-1986128747</payload_hash>
+        <record_name>image_01_element</record_name>
+        <reverted_from/>
+        <source>fef7da501b538554152362c5604bcbac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-05-03 11:19:18</sys_created_on>
+        <sys_id>ef61bea8875f0d901cec670a0cbb35de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18089a55f080000001</sys_recorded_at>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-05-03 11:19:18</sys_updated_on>
+        <type>Card element</type>
+        <update_guid>e761bea82f5f0d907b66c788bd8e93de</update_guid>
+        <update_guid_history>e761bea82f5f0d907b66c788bd8e93de:-1986128747</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-08-29 13:08:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_view_config_element">sys_sg_view_config_element</sys_db_object>
+        <sys_id>1f15cf7bc6d44de8896b76107717c640</sys_id>
+        <sys_metadata>6f61bea8875f0d901cec670a0cbb35dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>image_01_element</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_view_config_element_6f61bea8875f0d901cec670a0cbb35dc</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_config_element_6f61bea8875f0d901cec670a0cbb35dc">ef61bea8875f0d901cec670a0cbb35de</sys_update_version>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-08-29 13:08:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="">a678fabb87b61d101cec670a0cbb3596</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-11-03 13:50:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ea98fabb87b61d101cec670a0cbb35fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test CVI.SNC External</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_ea98fabb87b61d101cec670a0cbb35fb</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-11-03 13:50:39</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_ea98fabb87b61d101cec670a0cbb35fb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="">a678fabb87b61d101cec670a0cbb3596</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>cvigneron</sys_created_by><sys_created_on>2022-11-03 13:50:39</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>ea98fabb87b61d101cec670a0cbb35fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test CVI.SNC External</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_ea98fabb87b61d101cec670a0cbb35fb</sys_update_name><sys_updated_by>cvigneron</sys_updated_by><sys_updated_on>2022-11-03 13:50:39</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>1179095049</payload_hash>
+        <record_name>Test CVI.SNC External</record_name>
+        <reverted_from/>
+        <source>49168e11872311101cec670a0cbb352f</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-12-02 22:32:11</sys_created_on>
+        <sys_id>11f802c91bf759d0152362c5604bcb98</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>184d4f7f5f80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>ddf802c991f759d0136056b81f6f0f97</update_guid>
+        <update_guid_history>ddf802c991f759d0136056b81f6f0f97:1179095049</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 14/12/2022 15:21:59">15f802c91bf759d0152362c5604bcb9a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-12-14 14:21:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>25d2b69c04124f649fb9272a1f973c84</sys_id>
+        <sys_metadata>ea98fabb87b61d101cec670a0cbb35fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test CVI.SNC External</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_ea98fabb87b61d101cec670a0cbb35fb</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_ea98fabb87b61d101cec670a0cbb35fb">11f802c91bf759d0152362c5604bcb98</sys_update_version>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-12-14 14:21:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

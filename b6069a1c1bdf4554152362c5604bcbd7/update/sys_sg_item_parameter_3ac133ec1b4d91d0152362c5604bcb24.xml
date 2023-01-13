@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="INSERT_OR_UPDATE">
+        <default_value/>
+        <name>inventory_date</name>
+        <parent>6a2205d787d0dd501cec670a0cbb3523</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>CS01C70L</sys_created_by>
+        <sys_created_on>2022-07-29 15:50:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3ac133ec1b4d91d0152362c5604bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>inventory_date</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_3ac133ec1b4d91d0152362c5604bcb24</sys_update_name>
+        <sys_updated_by>CS01C70L</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:50:33</sys_updated_on>
+        <type>datetime</type>
+    </sys_sg_item_parameter>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_policy_rule">
+    <sys_sg_ui_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_floor</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_sg_ui_policy_rule</sys_class_name>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2022-12-06 16:31:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c5d955a61b2bd150152362c5604bcbc9</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>u_floor</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_ui_policy_rule_c5d955a61b2bd150152362c5604bcbc9</sys_update_name>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2022-12-08 10:26:28</sys_updated_on>
+        <table>sc_task</table>
+        <ui_policy display_value="hide floor and office">923ff419876799541cec670a0cbb350a</ui_policy>
+        <visible>false</visible>
+    </sys_sg_ui_policy_rule>
+</record_update>

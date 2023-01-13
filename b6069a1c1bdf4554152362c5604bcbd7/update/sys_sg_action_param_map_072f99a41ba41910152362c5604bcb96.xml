@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Retire">118b59ac1b641910152362c5604bcb94</button>
+        <item_parameter display_value="button_name">883d5d601ba41910152362c5604bcb44</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-07-04 08:38:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>072f99a41ba41910152362c5604bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>883d5d601ba41910152362c5604bcb44</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_072f99a41ba41910152362c5604bcb96</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-07-04 08:38:30</sys_updated_on>
+        <ui_parameter display_value="button_name">cc3e55a01ba41910152362c5604bcb47</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

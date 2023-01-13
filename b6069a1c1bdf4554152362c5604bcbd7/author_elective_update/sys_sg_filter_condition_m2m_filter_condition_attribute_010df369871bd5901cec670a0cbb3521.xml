@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_filter_condition_m2m_filter_condition_attribute">
+    <sys_sg_filter_condition_m2m_filter_condition_attribute action="DELETE">
+        <filter_condition display_value="Asset in stock Keyword filter condition">050db369871bd5901cec670a0cbb35e8</filter_condition>
+        <filter_condition_attribute/>
+        <sys_class_name>sys_sg_filter_condition_m2m_filter_condition_attribute</sys_class_name>
+        <sys_created_by>salavudeen.hadji</sys_created_by>
+        <sys_created_on>2022-11-21 15:34:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>010df369871bd5901cec670a0cbb3521</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_filter_condition_m2m_filter_condition_attribute_010df369871bd5901cec670a0cbb3521</sys_update_name>
+        <sys_updated_by>salavudeen.hadji</sys_updated_by>
+        <sys_updated_on>2022-11-21 15:34:37</sys_updated_on>
+    </sys_sg_filter_condition_m2m_filter_condition_attribute>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_filter_condition_m2m_filter_condition_attribute_010df369871bd5901cec670a0cbb3521</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_filter_condition_m2m_filter_condition_attribute"><sys_sg_filter_condition_m2m_filter_condition_attribute action="INSERT_OR_UPDATE"><filter_condition display_value="Asset in stock Keyword filter condition">050db369871bd5901cec670a0cbb35e8</filter_condition><filter_condition_attribute/><sys_class_name>sys_sg_filter_condition_m2m_filter_condition_attribute</sys_class_name><sys_created_by>salavudeen.hadji</sys_created_by><sys_created_on>2022-11-21 15:34:37</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>010df369871bd5901cec670a0cbb3521</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_filter_condition_m2m_filter_condition_attribute_010df369871bd5901cec670a0cbb3521</sys_update_name><sys_updated_by>salavudeen.hadji</sys_updated_by><sys_updated_on>2022-11-21 15:34:37</sys_updated_on></sys_sg_filter_condition_m2m_filter_condition_attribute></record_update>]]></payload>
+        <payload_hash>326521064</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>897ba2ad87d395901cec670a0cbb35c9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>salavudeen.hadji</sys_created_by>
+        <sys_created_on>2022-11-21 15:34:41</sys_created_on>
+        <sys_id>c20d7769871bd5901cec670a0cbb3512</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1849ad3c83b0000001</sys_recorded_at>
+        <sys_updated_by>salavudeen.hadji</sys_updated_by>
+        <sys_updated_on>2022-11-21 15:34:41</sys_updated_on>
+        <type>Attribut de condition de filtre M2M de c</type>
+        <update_guid>050df3694d1bd59040a2569c11d24e22</update_guid>
+        <update_guid_history>050df3694d1bd59040a2569c11d24e22:-463068131,050df3694d1bd59040a2569c11d24e22:-463068131</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>salavudeen.hadji</sys_created_by>
+        <sys_created_on>2022-11-21 15:34:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_filter_condition_m2m_filter_condition_attribute">sys_sg_filter_condition_m2m_filter_condition_attribute</sys_db_object>
+        <sys_id>020d23fa1f17407684355290e55e8e84</sys_id>
+        <sys_metadata>010df369871bd5901cec670a0cbb3521</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_filter_condition_m2m_filter_condition_attribute_010df369871bd5901cec670a0cbb3521</sys_update_name>
+        <sys_update_version display_value="sys_sg_filter_condition_m2m_filter_condition_attribute_010df369871bd5901cec670a0cbb3521">c20d7769871bd5901cec670a0cbb3512</sys_update_version>
+        <sys_updated_by>salavudeen.hadji</sys_updated_by>
+        <sys_updated_on>2022-11-21 15:34:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

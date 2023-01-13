@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="DELETE">
+        <button display_value="Remove list">5940e2f387b21d101cec670a0cbb35fb</button>
+        <button_parent_table/>
+        <carried>true</carried>
+        <constant/>
+        <default_value/>
+        <default_value_type>none</default_value_type>
+        <field_name/>
+        <input_source>user</input_source>
+        <input_style>inline</input_style>
+        <input_type>text</input_type>
+        <mandatory>false</mandatory>
+        <max_entries/>
+        <multi_entry>false</multi_entry>
+        <multi_select>false</multi_select>
+        <name>Remove list</name>
+        <order/>
+        <parameter_type>button</parameter_type>
+        <placeholder/>
+        <screen/>
+        <search_type>starts_with</search_type>
+        <source_field/>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-11-03 12:59:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8ddcee3f87f21d101cec670a0cbb350c</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Remove list</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_8ddcee3f87f21d101cec670a0cbb350c</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-11-03 13:49:04</sys_updated_on>
+        <table_name/>
+        <virtual_field_value>false</virtual_field_value>
+    </sys_sg_ui_parameter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_ui_parameter_8ddcee3f87f21d101cec670a0cbb350c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter"><sys_sg_ui_parameter action="INSERT_OR_UPDATE"><button display_value="Remove list">5940e2f387b21d101cec670a0cbb35fb</button><button_parent_table/><carried>true</carried><constant/><default_value/><default_value_type>none</default_value_type><field_name/><input_source>user</input_source><input_style>inline</input_style><input_type>text</input_type><mandatory>false</mandatory><max_entries/><multi_entry>false</multi_entry><multi_select>false</multi_select><name>Remove list</name><order/><parameter_type>button</parameter_type><placeholder/><screen/><search_type>starts_with</search_type><source_field/><sys_class_name>sys_sg_ui_parameter</sys_class_name><sys_created_by>cvigneron</sys_created_by><sys_created_on>2022-11-03 12:59:21</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>8ddcee3f87f21d101cec670a0cbb350c</sys_id><sys_mod_count>9</sys_mod_count><sys_name>Remove list</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_ui_parameter_8ddcee3f87f21d101cec670a0cbb350c</sys_update_name><sys_updated_by>cvigneron</sys_updated_by><sys_updated_on>2022-11-03 13:49:04</sys_updated_on><table_name/><virtual_field_value>false</virtual_field_value></sys_sg_ui_parameter></record_update>]]></payload>
+        <payload_hash>1967864783</payload_hash>
+        <record_name>Remove list</record_name>
+        <reverted_from/>
+        <source>a40d9323872a19d01cec670a0cbb3595</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-11-03 13:49:04</sys_created_on>
+        <sys_id>e338f67b87b61d101cec670a0cbb35e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1843dc09e720000001</sys_recorded_at>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-11-03 13:49:04</sys_updated_on>
+        <type>UI parameter</type>
+        <update_guid>ab38f67b78b61d1008951f67738f90e7</update_guid>
+        <update_guid_history>ab38f67b78b61d1008951f67738f90e7:1967864783,d8a7f6b7ccb61d1056ead583ba1ba5f2:1182419146,4777fa7738b61d10aa5396d058907d7d:1783923078,c5577a3724b61d1088e4bbff50a612f3:1266762287,abf3b67739761d10525b05ae06c4ee95:1783923078,36e3b277f4761d100f6bdbe237e8d506:270279755,6ec3be37d2761d10d0fd9fe4e671938d:1783923078,30c37a37dd761d1020bc70e40df12b9b:270279755,199f263711361d1078bc23d8654c349f:1967864783,57dca27f93f21d109cfb8eab45584b79:585184842</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-11-03 13:58:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_ui_parameter">sys_sg_ui_parameter</sys_db_object>
+        <sys_id>478c3655afa14262a87313397652d349</sys_id>
+        <sys_metadata>8ddcee3f87f21d101cec670a0cbb350c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Remove list</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_parameter_8ddcee3f87f21d101cec670a0cbb350c</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_parameter_8ddcee3f87f21d101cec670a0cbb350c">e338f67b87b61d101cec670a0cbb35e8</sys_update_version>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-11-03 13:58:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="DELETE">
+        <button/>
+        <button_parent_table/>
+        <carried>false</carried>
+        <constant/>
+        <default_value/>
+        <default_value_type>none</default_value_type>
+        <field_name/>
+        <input_source>user</input_source>
+        <input_style>inline</input_style>
+        <input_type>qr_barcode</input_type>
+        <mandatory>false</mandatory>
+        <max_entries>5</max_entries>
+        <multi_entry>true</multi_entry>
+        <multi_select>false</multi_select>
+        <name>Asset_tag_QR_code</name>
+        <order/>
+        <parameter_type>screen</parameter_type>
+        <placeholder/>
+        <screen display_value="Asset in stock">5b9147c91b2f0d90152362c5604bcb68</screen>
+        <search_type>starts_with</search_type>
+        <source_field/>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>CS01C70L</sys_created_by>
+        <sys_created_on>2022-05-30 08:28:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>53dccddd873bc1541cec670a0cbb358a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Asset_tag_QR_code</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_53dccddd873bc1541cec670a0cbb358a</sys_update_name>
+        <sys_updated_by>CS01C70L</sys_updated_by>
+        <sys_updated_on>2022-05-30 08:29:14</sys_updated_on>
+        <table_name/>
+        <virtual_field_value>false</virtual_field_value>
+    </sys_sg_ui_parameter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_ui_parameter_53dccddd873bc1541cec670a0cbb358a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter"><sys_sg_ui_parameter action="INSERT_OR_UPDATE"><button/><button_parent_table/><carried>false</carried><constant/><default_value/><default_value_type>none</default_value_type><field_name/><input_source>user</input_source><input_style>inline</input_style><input_type>qr_barcode</input_type><mandatory>false</mandatory><max_entries>5</max_entries><multi_entry>true</multi_entry><multi_select>false</multi_select><name>Asset_tag_QR_code</name><order/><parameter_type>screen</parameter_type><placeholder/><screen display_value="Asset in stock">5b9147c91b2f0d90152362c5604bcb68</screen><search_type>starts_with</search_type><source_field/><sys_class_name>sys_sg_ui_parameter</sys_class_name><sys_created_by>CS01C70L</sys_created_by><sys_created_on>2022-05-30 08:28:46</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>53dccddd873bc1541cec670a0cbb358a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Asset_tag_QR_code</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_ui_parameter_53dccddd873bc1541cec670a0cbb358a</sys_update_name><sys_updated_by>CS01C70L</sys_updated_by><sys_updated_on>2022-05-30 08:29:14</sys_updated_on><table_name/><virtual_field_value>false</virtual_field_value></sys_sg_ui_parameter></record_update>]]></payload>
+        <payload_hash>-1581861843</payload_hash>
+        <record_name>Asset_tag_QR_code</record_name>
+        <reverted_from/>
+        <source>b206525c1b138554152362c5604bcb0f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>CS01C70L</sys_created_by>
+        <sys_created_on>2022-05-30 08:29:14</sys_created_on>
+        <sys_id>ab6d4551877bc1541cec670a0cbb35b1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>181141561f70000001</sys_recorded_at>
+        <sys_updated_by>CS01C70L</sys_updated_by>
+        <sys_updated_on>2022-05-30 08:30:36</sys_updated_on>
+        <type>UI parameter</type>
+        <update_guid>636d4551047bc154a2f9481d137c67b1</update_guid>
+        <update_guid_history>636d4551047bc154a2f9481d137c67b1:-1581861843,b05d8dddce3bc154f648aa2df8642e2e:-913235781</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>CS01C70L</sys_created_by>
+        <sys_created_on>2022-05-30 08:30:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_ui_parameter">sys_sg_ui_parameter</sys_db_object>
+        <sys_id>c8a269d75c324053b9bb11fc3a7069d1</sys_id>
+        <sys_metadata>53dccddd873bc1541cec670a0cbb358a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Asset_tag_QR_code</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_parameter_53dccddd873bc1541cec670a0cbb358a</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_parameter_53dccddd873bc1541cec670a0cbb358a">ab6d4551877bc1541cec670a0cbb35b1</sys_update_version>
+        <sys_updated_by>CS01C70L</sys_updated_by>
+        <sys_updated_on>2022-05-30 08:30:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

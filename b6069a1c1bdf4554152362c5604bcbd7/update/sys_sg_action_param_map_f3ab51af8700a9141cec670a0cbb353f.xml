@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Multiple update scan">ae63cfcd1b2f0d90152362c5604bcb0e</button>
+        <item_parameter display_value="rank">1a7695a38700a9141cec670a0cbb35ce</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2023-01-03 15:44:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f3ab51af8700a9141cec670a0cbb353f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1a7695a38700a9141cec670a0cbb35ce</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_f3ab51af8700a9141cec670a0cbb353f</sys_update_name>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2023-01-03 15:44:41</sys_updated_on>
+        <ui_parameter display_value="Grade">98da912f8700a9141cec670a0cbb353c</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

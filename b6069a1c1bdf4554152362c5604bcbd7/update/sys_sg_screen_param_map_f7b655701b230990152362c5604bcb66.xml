@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_param_map">
+    <sys_sg_screen_param_map action="INSERT_OR_UPDATE">
+        <item_parameter display_value="asset_tag">d646197c1befc590152362c5604bcbad</item_parameter>
+        <screen display_value="Mise à jour en masse">78555d781befc590152362c5604bcbf9</screen>
+        <sys_class_name>sys_sg_screen_param_map</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-05-16 09:37:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f7b655701b230990152362c5604bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d646197c1befc590152362c5604bcbad</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_screen_param_map_f7b655701b230990152362c5604bcb66</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-05-16 09:37:17</sys_updated_on>
+        <ui_parameter display_value="Scan Tatouages">60b6d1301b230990152362c5604bcb42</ui_parameter>
+    </sys_sg_screen_param_map>
+</record_update>

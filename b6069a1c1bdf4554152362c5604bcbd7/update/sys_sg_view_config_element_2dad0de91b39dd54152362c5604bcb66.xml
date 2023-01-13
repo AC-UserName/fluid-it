@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>Liste par asset View Config Element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-09-07 13:14:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2dad0de91b39dd54152362c5604bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Liste par asset View Config Element</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_2dad0de91b39dd54152362c5604bcb66</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-09-07 13:14:14</sys_updated_on>
+        <view_config display_value="Liste par asset Card">25ad0de91b39dd54152362c5604bcb5e</view_config>
+        <view_template_slot display_value="text_icon_01">a9ca62e6876191141cec670a0cbb3591</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

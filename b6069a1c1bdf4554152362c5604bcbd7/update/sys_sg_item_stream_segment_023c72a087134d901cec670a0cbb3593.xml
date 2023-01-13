@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_segment">
+    <sys_sg_item_stream_segment action="INSERT_OR_UPDATE">
+        <empty_state/>
+        <interleave_order_direction>asc</interleave_order_direction>
+        <name>All Pallet 2 Screen Segment</name>
+        <order>10</order>
+        <screen/>
+        <sys_class_name>sys_sg_item_stream_segment</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-05-03 12:06:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>023c72a087134d901cec670a0cbb3593</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Pallet 2 Screen Segment</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_item_stream_segment_023c72a087134d901cec670a0cbb3593</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-05-03 12:06:25</sys_updated_on>
+    </sys_sg_item_stream_segment>
+</record_update>

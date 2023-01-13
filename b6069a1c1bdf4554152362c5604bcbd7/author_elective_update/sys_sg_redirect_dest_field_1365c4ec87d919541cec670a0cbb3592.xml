@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_redirect_dest_field">
+    <sys_sg_redirect_dest_field action="DELETE">
+        <button display_value="PV recette">07c8801c875195541cec670a0cbb3543</button>
+        <button_table>task</button_table>
+        <constant_value/>
+        <destination_ui_parameter display_value="catalog task id">bd7548ec87d919541cec670a0cbb35be</destination_ui_parameter>
+        <source_field>sys_id</source_field>
+        <source_ui_parameter display_value="task id">f8173390879919541cec670a0cbb3548</source_ui_parameter>
+        <sys_class_name>sys_sg_redirect_dest_field</sys_class_name>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2022-08-10 09:15:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1365c4ec87d919541cec670a0cbb3592</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bd7548ec87d919541cec670a0cbb35be</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_redirect_dest_field_1365c4ec87d919541cec670a0cbb3592</sys_update_name>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2022-08-10 09:15:32</sys_updated_on>
+        <type>source_ui_parameter</type>
+    </sys_sg_redirect_dest_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_redirect_dest_field_1365c4ec87d919541cec670a0cbb3592</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_redirect_dest_field"><sys_sg_redirect_dest_field action="INSERT_OR_UPDATE"><button display_value="PV recette">07c8801c875195541cec670a0cbb3543</button><button_table>task</button_table><constant_value/><destination_ui_parameter display_value="catalog task id">bd7548ec87d919541cec670a0cbb35be</destination_ui_parameter><source_field>sys_id</source_field><source_ui_parameter display_value="task id">f8173390879919541cec670a0cbb3548</source_ui_parameter><sys_class_name>sys_sg_redirect_dest_field</sys_class_name><sys_created_by>GD073B5L</sys_created_by><sys_created_on>2022-08-10 09:15:32</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>1365c4ec87d919541cec670a0cbb3592</sys_id><sys_mod_count>0</sys_mod_count><sys_name>bd7548ec87d919541cec670a0cbb35be</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_redirect_dest_field_1365c4ec87d919541cec670a0cbb3592</sys_update_name><sys_updated_by>GD073B5L</sys_updated_by><sys_updated_on>2022-08-10 09:15:32</sys_updated_on><type>source_ui_parameter</type></sys_sg_redirect_dest_field></record_update>]]></payload>
+        <payload_hash>-1390604216</payload_hash>
+        <record_name>bd7548ec87d919541cec670a0cbb35be</record_name>
+        <reverted_from/>
+        <source>b206525c1b138554152362c5604bcb0f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2022-08-10 09:15:32</sys_created_on>
+        <sys_id>737a0ca4871d19541cec670a0cbb35f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1828709a44c0000001</sys_recorded_at>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2022-08-10 09:15:32</sys_updated_on>
+        <type>Redirection destination fields</type>
+        <update_guid>7b7a0ca4c61d1954c57380196ce00bf3</update_guid>
+        <update_guid_history>7b7a0ca4c61d1954c57380196ce00bf3:-1390604216</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2022-08-10 14:18:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_redirect_dest_field">sys_sg_redirect_dest_field</sys_db_object>
+        <sys_id>2307b1fb995b4a8e995ef65648ab1d64</sys_id>
+        <sys_metadata>1365c4ec87d919541cec670a0cbb3592</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bd7548ec87d919541cec670a0cbb35be</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_redirect_dest_field_1365c4ec87d919541cec670a0cbb3592</sys_update_name>
+        <sys_update_version display_value="sys_sg_redirect_dest_field_1365c4ec87d919541cec670a0cbb3592">737a0ca4871d19541cec670a0cbb35f4</sys_update_version>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2022-08-10 14:18:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

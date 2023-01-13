@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template">
+    <sys_sg_view_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Image and Text</description>
+        <name>List name empty</name>
+        <preview_image/>
+        <root_view_attrs_json/>
+        <sys_class_name>sys_sg_view_template</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-09-29 14:22:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5d40faec87dad5501cec670a0cbb35f1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>List name empty</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_view_template_5d40faec87dad5501cec670a0cbb35f1</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-09-29 14:30:36</sys_updated_on>
+        <template_json>{"Type":"ViewGroup","Margin":{"Top":10,"Bottom":10},"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Id":"viewgroup_01","Children":[{"Type":"ViewGroup","Margin":{},"Orientation":"Vertical","Alignment":"Center","Distribution":"Auto","Id":"viewgroup_01","Children":[{"Type":"Image","Margin":{"Bottom":32},"Height":160,"Width":200,"Scaling":"Fill","CellId":"image_01","Id":"image_01"},{"Type":"Text","Margin":{"Bottom":20},"TextColor":"#FF0000","TextAlignment":"Center","MaxLines":2,"Font":{"Weight":"semibold","Size":17},"CellId":"es-text-slot-1","Id":"es-text-slot-1"},{"Type":"Text","Margin":{"Bottom":20},"TextColor":"#FF0000","TextAlignment":"Center","MaxLines":2,"Font":{"Weight":"bold","Size":17},"CellId":"text_01","Id":"text_01"},{"Type":"ViewGroup","Orientation":"Vertical","Alignment":"Center","Distribution":"Auto","Margin":{"Top":12},"Id":"viewgroup_01","Children":[{"Orientation":"Vertical","Type":"ViewGroup","Alignment":"Center","Distribution":"Auto","Id":"viewgroup_01","Children":[{"CornerRadius":8,"BorderWidth":1,"Margin":{},"Font":{"Weight":"semibold","Size":14},"TextAlignment":"Center","Height":40,"Width":160,"MaxLines":1,"Type":"Button","Alignment":"Center","CellId":"button_01","Id":"button_01"},{"Margin":{"Top":16},"Font":{"Weight":"semibold","Size":14},"TextAlignment":"Center","Height":40,"Width":160,"MaxLines":1,"Type":"Button","Alignment":"Center","CellId":"button_02","Id":"button_02"},{"Margin":{"Top":16},"Font":{"Weight":"semibold","Size":14},"TextAlignment":"Center","Height":40,"Width":160,"MaxLines":1,"Type":"Button","Alignment":"Center","CellId":"button_03","Id":"button_03"}]}]}]}]}</template_json>
+    </sys_sg_view_template>
+</record_update>

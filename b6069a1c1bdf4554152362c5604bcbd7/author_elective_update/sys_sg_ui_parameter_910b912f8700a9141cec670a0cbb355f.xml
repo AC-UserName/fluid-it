@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="DELETE">
+        <button display_value="Multiple update scan">ae63cfcd1b2f0d90152362c5604bcb0e</button>
+        <button_parent_table/>
+        <carried>false</carried>
+        <constant/>
+        <default_value/>
+        <default_value_type>none</default_value_type>
+        <field_name>u_parent</field_name>
+        <input_source>user</input_source>
+        <input_style>inline</input_style>
+        <input_type>search_list</input_type>
+        <mandatory>false</mandatory>
+        <max_entries/>
+        <multi_entry>false</multi_entry>
+        <multi_select>true</multi_select>
+        <name>Liste</name>
+        <order/>
+        <parameter_type>button</parameter_type>
+        <placeholder/>
+        <screen/>
+        <search_type>starts_with</search_type>
+        <source_field/>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2023-01-03 15:42:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>910b912f8700a9141cec670a0cbb355f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Liste</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_910b912f8700a9141cec670a0cbb355f</sys_update_name>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2023-01-03 15:42:16</sys_updated_on>
+        <table_name>sn_hamp_assets_list</table_name>
+        <virtual_field_value>false</virtual_field_value>
+    </sys_sg_ui_parameter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_ui_parameter_910b912f8700a9141cec670a0cbb355f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter"><sys_sg_ui_parameter action="INSERT_OR_UPDATE"><button display_value="Multiple update scan">ae63cfcd1b2f0d90152362c5604bcb0e</button><button_parent_table/><carried>false</carried><constant/><default_value/><default_value_type>none</default_value_type><field_name>u_parent</field_name><input_source>user</input_source><input_style>inline</input_style><input_type>search_list</input_type><mandatory>false</mandatory><max_entries/><multi_entry>false</multi_entry><multi_select>true</multi_select><name>Liste</name><order/><parameter_type>button</parameter_type><placeholder/><screen/><search_type>starts_with</search_type><source_field/><sys_class_name>sys_sg_ui_parameter</sys_class_name><sys_created_by>GD073B5L</sys_created_by><sys_created_on>2023-01-03 15:42:16</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>910b912f8700a9141cec670a0cbb355f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Liste</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_ui_parameter_910b912f8700a9141cec670a0cbb355f</sys_update_name><sys_updated_by>GD073B5L</sys_updated_by><sys_updated_on>2023-01-03 15:42:16</sys_updated_on><table_name>sn_hamp_assets_list</table_name><virtual_field_value>false</virtual_field_value></sys_sg_ui_parameter></record_update>]]></payload>
+        <payload_hash>1040151916</payload_hash>
+        <record_name>Liste</record_name>
+        <reverted_from/>
+        <source>f83b7ce3870c69141cec670a0cbb35f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2023-01-03 15:42:16</sys_created_on>
+        <sys_id>d82b5d2f8700a9141cec670a0cbb35c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185784c2c030000001</sys_recorded_at>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2023-01-03 15:42:16</sys_updated_on>
+        <type>UI parameter</type>
+        <update_guid>d02b5d2f0000a914ec7039bb340331c7</update_guid>
+        <update_guid_history>d02b5d2f0000a914ec7039bb340331c7:1040151916</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2023-01-03 16:54:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_ui_parameter">sys_sg_ui_parameter</sys_db_object>
+        <sys_id>35b649fc9df9417a96447700c2543d21</sys_id>
+        <sys_metadata>910b912f8700a9141cec670a0cbb355f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Liste</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_parameter_910b912f8700a9141cec670a0cbb355f</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_parameter_910b912f8700a9141cec670a0cbb355f">d82b5d2f8700a9141cec670a0cbb35c7</sys_update_version>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2023-01-03 16:54:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

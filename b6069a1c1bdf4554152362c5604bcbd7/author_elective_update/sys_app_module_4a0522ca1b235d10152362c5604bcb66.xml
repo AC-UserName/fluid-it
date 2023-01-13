@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>imp CNN model</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_edfm_fluid_it_imp_cnn_model</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2022-12-05 08:42:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>4a0522ca1b235d10152362c5604bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>imp CNN model</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_app_module_4a0522ca1b235d10152362c5604bcb66</sys_update_name>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2022-12-05 08:42:51</sys_updated_on>
+        <timeline_page/>
+        <title>imp CNN model</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_app_module_4a0522ca1b235d10152362c5604bcb66</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>imp CNN model</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_edfm_fluid_it_imp_cnn_model</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>GD073B5L</sys_created_by><sys_created_on>2022-12-05 08:42:51</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>4a0522ca1b235d10152362c5604bcb66</sys_id><sys_mod_count>0</sys_mod_count><sys_name>imp CNN model</sys_name><sys_overrides/><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_app_module_4a0522ca1b235d10152362c5604bcb66</sys_update_name><sys_updated_by>GD073B5L</sys_updated_by><sys_updated_on>2022-12-05 08:42:51</sys_updated_on><timeline_page/><title>imp CNN model</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-895742685</payload_hash>
+        <record_name>imp CNN model</record_name>
+        <reverted_from/>
+        <source>ff3462c61b235d10152362c5604bcb69</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2022-12-05 08:42:51</sys_created_on>
+        <sys_id>060522ca1b235d10152362c5604bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184e173c6340000001</sys_recorded_at>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2022-12-05 08:42:51</sys_updated_on>
+        <type>Module</type>
+        <update_guid>0e0522ca49235d10d0a094a0b3912275</update_guid>
+        <update_guid_history>0e0522ca49235d10d0a094a0b3912275:-895742685</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 14/12/2022 15:29:00">cc9ace8d1bf759d0152362c5604bcb56</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-12-14 14:29:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>2eeefb0d41a645f8a397d0a86b002590</sys_id>
+        <sys_metadata>4a0522ca1b235d10152362c5604bcb66</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>imp CNN model</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_app_module_4a0522ca1b235d10152362c5604bcb66</sys_update_name>
+        <sys_update_version display_value="sys_app_module_4a0522ca1b235d10152362c5604bcb66">060522ca1b235d10152362c5604bcb76</sys_update_version>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-12-14 14:29:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

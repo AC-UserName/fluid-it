@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+	
+	gs.info('FluidIT - Mise à jour Unitaire -' + JSON.stringify(input));
+	var regex = "";
+    var scan = input.Scan;
+    var state = "";
+    var stockroom = "";
+    var substate = "";
+    var wiping = "";
+    var update_error = false;
+    var rank = "";
+    var logical = "";
+     var account = "";
+    var reasons = "";
+
+    if (scan.indexOf('u_reasons') > -1) {
+        regex = /u_reasons=(.*?)\;/gi;
+        reasons = regex.exec(scan)[1];
+    }
+    if (scan.indexOf('gl_account') > -1) {
+        regex = /gl_account=(.*?)\;/gi;
+        account = regex.exec(scan)[1];
+    }
+
+    if (scan.indexOf('u_logical_stockroom') > -1) {
+        regex = /u_logical_stockroom=(.*?)\;/gi;
+        logical = regex.exec(scan)[1];
+    }
+    
+    if (scan.indexOf('u_rank') > -1) {
+        regex = /u_rank=(.*?)\;/gi;
+        rank = regex.exec(scan)[1];
+    }
+
+    if (scan.indexOf('u_wiping') > -1) {
+        regex = /u_wiping=(.*?)\;/gi;
+        wiping = regex.exec(scan)[1];
+    }
+
+    if (scan.indexOf('stockroom') > -1) {
+        regex = /stockroom=(.*?)\;/gi;
+        stockroom = regex.exec(scan)[1];
+    }
+    if (scan.indexOf('substatus') > -1) {
+        regex = /substatus=(.*?)\;/gi;
+        substate = regex.exec(scan)[1];
+    }
+
+    if (scan.indexOf("install_status") > -1) {
+        regex = /install_status=(.*?)\;/gi;
+        state = regex.exec(scan)[1];
+    }
+
+
+    var asset_gr = new GlideRecord('alm_hardware');
+    asset_gr.addQuery('sys_id', input.sys_id);
+    asset_gr.query();
+    if (asset_gr.next()) {
+        if (state != "") {
+            var install = fr_choice('alm_hardware', 'install_status', state);
+            if (install)
+                asset_gr.install_status = state;
+        }
+
+        if (reasons != "") {
+            var reasons_value = fr_choice('alm_asset', 'u_reasons', reasons);
+            if (reasons_value)
+                asset_gr.install_status = reasons_value;
+        }
+
+        if (stockroom != "") {
+            var gr_stock = new GlideRecord('alm_stockroom');
+            gr_stock.addQuery('name', stockroom);
+            gr_stock.addEncodedQuery('type=99c885541bba4950152362c5604bcbf4');
+            gr_stock.query();
+            if (gr_stock.next()) {
+                asset_gr.stockroom = gr_stock.sys_id;
+            }
+        }
+        if (logical != "") {
+            var gr_stock_log = new GlideRecord('alm_stockroom');
+            gr_stock_log.addQuery('name', stockroom);
+            gr_stock_log.addEncodedQuery('type=6bd448b01bc64954d433dbd0b24bcb57');
+            gr_stock_log.query();
+            if (gr_stock_log.next()) {
+                asset_gr.u_logical_stockroom = gr_stock_log.sys_id;
+            }
+        }
+        if (substate != "") {
+            var substatus = fr_choice('alm_asset', 'substatus', substate);
+            if (substatus)
+                asset_gr.substatus = substatus;
+        }
+        if (wiping != "") {
+            //var substatus = fr_choice('alm_asset', 'substatus', substate);
+            asset_gr.u_wiping = wiping;
+        }
+        if (account != "") {
+            asset_gr.gl_account = account;
+        }
+
+        if (rank != "") {
+            var rank_value = fr_choice('alm_hardware', 'u_rank', rank);
+            if (rank_value)
+                asset_gr.u_rank = rank_value;
+		}
+
+        // Prevent from a modification after an update has been executed on the concerned asset
+        // Beginning
+        var updateDateStr = asset_gr.sys_updated_on.getDisplayValue();
+        //	var updateDateStrM = moment(updateDateStr, 'DD/MM/YYYY HH:mm:ss').format("YYYY-MM-DD HH:mm:ss"); 
+        // function "moment" is not known, split of the date to obtain the format "YYYY-MM-DD HH:mm:ss"
+        var d1 = updateDateStr.split(" ");
+        var date = d1[0].split("/");
+        var time = d1[1].split(":");
+        var dd = date[0];
+        var mm = date[1];
+        var yy = date[2];
+        var hh = time[0];
+        var min = time[1];
+        var ss = time[2];
+        var dateResult = yy + '-' + mm + '-' + dd + ' ' + hh + ':' + min + ':' + ss;
+        var updateDate = new GlideDateTime(dateResult);
+
+        var inventoryDate = new GlideDateTime(input.inventory_date);
+        if (gs.getUser().isMemberOf(asset_gr.getDisplayValue('u_fleet_manager'))) {
+            if (updateDate.getNumericValue() < inventoryDate.getNumericValue()) {
+
+                asset_gr.update();
+
+            } else {
+                update_error = true;
+                //list_id_error.push(asset_gr.asset_tag);
+                list_id_error.push(asset_gr.sys_id);
+                var msg = "La mise à jour pour l actif " + asset_gr.display_name + " n est pas possible car une mise à jour plus récente a été détectée.";
+                gs.addErrorMessage(msg);
+
+
+            }
+        } else {
+            update_error = true;
+            var msg = "La mise à jour de l'actif  " + asset_gr.asset_tag + " n'a pas été réalisée en raison des règles d'accès.";
+            gs.addErrorMessage(msg);
+        }
+        // End	
+        //       asset_gr.update();
+
+        var assetID = asset_gr.sys_id.toString();
+        if (update_error == true) {
+            gs.eventQueue('x_edfm_fluid_it.update_action.error', asset_gr, gs.getUserID(), assetID);
+            update_error = false;
+        }
+    }
+
+
+    function fr_choice(table, element, value) {
+        var choice = new GlideRecord('sys_choice');
+        choice.addQuery('name', table.toString());
+        choice.addQuery('element', element.toString());
+       // choice.addQuery('language', 'fr');
+        choice.addQuery('inactive', false);
+        choice.addQuery('value', value.toString());
+        choice.query();
+        if (choice.next()) {
+
+            return choice.value.toString();
+        } else
+            return "";
+    }
+})(input);]]></execution_script>
+        <name>update_action</name>
+        <parameter_screen/>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-06-30 09:20:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6a2205d787d0dd501cec670a0cbb3523</sys_id>
+        <sys_mod_count>61</sys_mod_count>
+        <sys_name>update_action</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_6a2205d787d0dd501cec670a0cbb3523</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2023-01-12 09:43:47</sys_updated_on>
+        <table>alm_hardware</table>
+        <template/>
+        <type>script</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+</record_update>

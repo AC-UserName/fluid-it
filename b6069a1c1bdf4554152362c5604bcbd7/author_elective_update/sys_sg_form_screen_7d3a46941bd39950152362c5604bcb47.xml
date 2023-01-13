@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen">
+    <sys_sg_form_screen action="DELETE">
+        <alert/>
+        <application_roles/>
+        <available_offline>true</available_offline>
+        <data_item display_value="create_list">b758ce101bd39950152362c5604bcbc1</data_item>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state display_value="Search Default Empty State">df1f61855bd8a010da168d8fa881c75d</empty_state>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hidden>false</hidden>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-List">313a46941bd39950152362c5604bcb44</icon>
+        <item_view/>
+        <name>Create list</name>
+        <order/>
+        <override_context_with_data_item>false</override_context_with_data_item>
+        <parent/>
+        <parent_table/>
+        <roles_override/>
+        <segments_height>medium</segments_height>
+        <segments_min_width>medium</segments_min_width>
+        <sys_class_name>sys_sg_form_screen</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-11-17 10:00:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7d3a46941bd39950152362c5604bcb47</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Create list</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_form_screen_7d3a46941bd39950152362c5604bcb47</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-11-17 10:19:30</sys_updated_on>
+        <table>sn_hamp_assets_list</table>
+        <use_view_config>false</use_view_config>
+        <view_config display_value="Create list Card">393a86541bd39950152362c5604bcb55</view_config>
+    </sys_sg_form_screen>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_form_screen_7d3a46941bd39950152362c5604bcb47</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen"><sys_sg_form_screen action="INSERT_OR_UPDATE"><alert/><application_roles/><available_offline>true</available_offline><data_item display_value="create_list">b758ce101bd39950152362c5604bcbc1</data_item><description/><dynamic_prefetch_count/><empty_state display_value="Search Default Empty State">df1f61855bd8a010da168d8fa881c75d</empty_state><fetch_type>not_required</fetch_type><filter/><hidden>false</hidden><hide_filters>false</hide_filters><hide_screen_name>false</hide_screen_name><icon display_value="icon-List">313a46941bd39950152362c5604bcb44</icon><item_view/><name>Create list</name><order/><override_context_with_data_item>false</override_context_with_data_item><parent/><parent_table/><roles_override/><segments_height>medium</segments_height><segments_min_width>medium</segments_min_width><sys_class_name>sys_sg_form_screen</sys_class_name><sys_created_by>cvigneron</sys_created_by><sys_created_on>2022-11-17 10:00:39</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>7d3a46941bd39950152362c5604bcb47</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Create list</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_form_screen_7d3a46941bd39950152362c5604bcb47</sys_update_name><sys_updated_by>cvigneron</sys_updated_by><sys_updated_on>2022-11-17 10:19:30</sys_updated_on><table>sn_hamp_assets_list</table><use_view_config>false</use_view_config><view_config display_value="Create list Card">393a86541bd39950152362c5604bcb55</view_config></sys_sg_form_screen></record_update>]]></payload>
+        <payload_hash>825646641</payload_hash>
+        <record_name>Create list</record_name>
+        <reverted_from/>
+        <source>b206525c1b138554152362c5604bcb0f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-11-17 10:19:30</sys_created_on>
+        <sys_id>c68e0ad01b179950152362c5604bcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1848519ca210000001</sys_recorded_at>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-11-17 10:19:30</sys_updated_on>
+        <type>Record screen</type>
+        <update_guid>4e8e0ad0591799508291285b77d38c13</update_guid>
+        <update_guid_history>4e8e0ad0591799508291285b77d38c13:825646641,623cc61ce1d39950fc9fbfc27f5d0af1:-942799189,b50c421cdfd3995047fa44e0568d0505:-25020964,713a469477d399502013d9fb76574a58:-641386703</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-11-17 10:20:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_form_screen">sys_sg_form_screen</sys_db_object>
+        <sys_id>2250fe5286ec4818aa3a0855fd9b37c4</sys_id>
+        <sys_metadata>7d3a46941bd39950152362c5604bcb47</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create list</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_form_screen_7d3a46941bd39950152362c5604bcb47</sys_update_name>
+        <sys_update_version display_value="sys_sg_form_screen_7d3a46941bd39950152362c5604bcb47">c68e0ad01b179950152362c5604bcb14</sys_update_version>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-11-17 10:20:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

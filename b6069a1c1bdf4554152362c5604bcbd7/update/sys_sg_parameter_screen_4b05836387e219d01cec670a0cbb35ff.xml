@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_parameter_screen">
+    <sys_sg_parameter_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <application_roles/>
+        <available_offline>false</available_offline>
+        <cancel_label>Cancel</cancel_label>
+        <data_item/>
+        <description>remove assets from list</description>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <header_only_on_first_page>false</header_only_on_first_page>
+        <hidden>false</hidden>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon/>
+        <name>Remove assets from lists</name>
+        <next_label>Next</next_label>
+        <order/>
+        <pagination_type>all</pagination_type>
+        <parent/>
+        <parent_table/>
+        <prev_label>Previous</prev_label>
+        <resume>false</resume>
+        <roles_override/>
+        <submit_label>Submit</submit_label>
+        <sys_class_name>sys_sg_parameter_screen</sys_class_name>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2022-10-21 09:50:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4b05836387e219d01cec670a0cbb35ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Remove assets from lists</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_parameter_screen_4b05836387e219d01cec670a0cbb35ff</sys_update_name>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2022-10-21 09:50:50</sys_updated_on>
+        <type display_value="">string</type>
+        <view_config/>
+    </sys_sg_parameter_screen>
+</record_update>

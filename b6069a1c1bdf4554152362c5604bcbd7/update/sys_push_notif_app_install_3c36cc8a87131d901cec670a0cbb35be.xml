@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <last_registered_on>2022-12-27 09:41:30</last_registered_on>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>salavudeen.hadji</sys_created_by>
+        <sys_created_on>2022-11-22 10:53:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3c36cc8a87131d901cec670a0cbb35be</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>f3yIwLGVR6C4Ddh_BeYXKI:APA91bHKZTCMls34vTkqN65cbmkLCS84DQNoS5vkXu0oKvXnsjDPGbEMukExVC4k9uBeh4StefvOhbyYwOdsZTc6rjqHTx2U_ooqZfF05flEyDA5hgB3ohrIxI67iAFYGHs0em6MrhmX</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Mobile Application">05ed2fb177002300258da2e2c81061c2</sys_push_application_id>
+        <sys_push_platform_id display_value="Google">53e75f30ff0002009738ffffffffff12</sys_push_platform_id>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_3c36cc8a87131d901cec670a0cbb35be</sys_update_name>
+        <sys_updated_by>salavudeen.hadji</sys_updated_by>
+        <sys_updated_on>2022-12-27 09:50:07</sys_updated_on>
+        <sys_user_id display_value="Salavudeen HADJI (salavudeen.hadji)">7e1a22ad1bdf1d90152362c5604bcbaf</sys_user_id>
+        <token>f3yIwLGVR6C4Ddh_BeYXKI:APA91bHKZTCMls34vTkqN65cbmkLCS84DQNoS5vkXu0oKvXnsjDPGbEMukExVC4k9uBeh4StefvOhbyYwOdsZTc6rjqHTx2U_ooqZfF05flEyDA5hgB3ohrIxI67iAFYGHs0em6MrhmX</token>
+    </sys_push_notif_app_install>
+</record_update>

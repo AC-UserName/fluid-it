@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description/>
+        <event_name>x_edfm_fluid_it.mobile_update_asset</event_name>
+        <fired_by>Now agent button reservation</fired_by>
+        <queue/>
+        <suffix>mobile_update_asset</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-07-01 07:11:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>950e21a3879851901cec670a0cbb35af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_edfm_fluid_it.mobile_update_asset</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sysevent_register_950e21a3879851901cec670a0cbb35af</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-07-01 07:11:31</sys_updated_on>
+        <table>task</table>
+    </sysevent_register>
+</record_update>

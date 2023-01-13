@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition/>
+        <condition_order/>
+        <datasource_table>task</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="My tasks Record Screen">552d8e9f871cdd501cec670a0cbb3572</embedded_screen>
+        <item_view/>
+        <name>My tasks List Item Config</name>
+        <screen/>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-06-30 14:46:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>912d8e9f871cdd501cec670a0cbb357e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My tasks List Item Config</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_master_item_912d8e9f871cdd501cec670a0cbb357e</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-06-30 14:46:51</sys_updated_on>
+        <table/>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="My tasks Card">d52d8e9f871cdd501cec670a0cbb3569</view_config>
+    </sys_sg_master_item>
+</record_update>

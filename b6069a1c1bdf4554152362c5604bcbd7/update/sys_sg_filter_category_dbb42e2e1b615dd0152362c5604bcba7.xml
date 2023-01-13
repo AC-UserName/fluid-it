@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_filter_category">
+    <sys_sg_filter_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label>Incident</label>
+        <name>Appointment INC Filter Category</name>
+        <sys_class_name>sys_sg_filter_category</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-08-29 11:52:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>dbb42e2e1b615dd0152362c5604bcba7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Appointment INC Filter Category</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_filter_category_dbb42e2e1b615dd0152362c5604bcba7</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-09-02 13:48:00</sys_updated_on>
+        <table>task</table>
+    </sys_sg_filter_category>
+</record_update>

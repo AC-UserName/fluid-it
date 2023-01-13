@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="DELETE">
+        <name>text_01_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-08-29 07:26:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1fb72dae872951141cec670a0cbb359c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_01_element</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_1fb72dae872951141cec670a0cbb359c</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-08-29 07:26:28</sys_updated_on>
+        <view_config display_value="Asset lookup Card">67cf1e501b938554152362c5604bcb2a</view_config>
+        <view_template_slot display_value="text_01">1367616e872951141cec670a0cbb354a</view_template_slot>
+    </sys_sg_view_config_element>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_view_config_element_1fb72dae872951141cec670a0cbb359c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element"><sys_sg_view_config_element action="INSERT_OR_UPDATE"><name>text_01_element</name><sys_class_name>sys_sg_view_config_element</sys_class_name><sys_created_by>cvigneron</sys_created_by><sys_created_on>2022-08-29 07:26:28</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>1fb72dae872951141cec670a0cbb359c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>text_01_element</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_view_config_element_1fb72dae872951141cec670a0cbb359c</sys_update_name><sys_updated_by>cvigneron</sys_updated_by><sys_updated_on>2022-08-29 07:26:28</sys_updated_on><view_config display_value="Asset lookup Card">67cf1e501b938554152362c5604bcb2a</view_config><view_template_slot display_value="text_01">1367616e872951141cec670a0cbb354a</view_template_slot></sys_sg_view_config_element></record_update>]]></payload>
+        <payload_hash>1730520216</payload_hash>
+        <record_name>text_01_element</record_name>
+        <reverted_from/>
+        <source>3267c952874dddd01cec670a0cbb35b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-08-29 07:26:28</sys_created_on>
+        <sys_id>1fb72dae872951141cec670a0cbb359e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182e87e9ccd0000001</sys_recorded_at>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-08-29 07:26:28</sys_updated_on>
+        <type>Card element</type>
+        <update_guid>17b72dae1129511477a8b5de1fc3d79e</update_guid>
+        <update_guid_history>17b72dae1129511477a8b5de1fc3d79e:1730520216</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2022-08-29 12:14:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_view_config_element">sys_sg_view_config_element</sys_db_object>
+        <sys_id>0bce92f7d4084d849177de261f3532a9</sys_id>
+        <sys_metadata>1fb72dae872951141cec670a0cbb359c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_01_element</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_view_config_element_1fb72dae872951141cec670a0cbb359c</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_config_element_1fb72dae872951141cec670a0cbb359c">1fb72dae872951141cec670a0cbb359e</sys_update_version>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2022-08-29 12:14:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

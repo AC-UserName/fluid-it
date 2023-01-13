@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>All pallet</name>
+        <query_condition table="alm_hardware">x_edfm_fluid_it_pallet_nameISNOTEMPTY<item endquery="false" field="x_edfm_fluid_it_pallet_name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-05-03 11:45:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bb6732a087df0d901cec670a0cbb3553</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All pallet</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_data_item_bb6732a087df0d901cec670a0cbb3553</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-05-03 11:45:31</sys_updated_on>
+        <table>alm_hardware</table>
+    </sys_sg_data_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_data_item_bb6732a087df0d901cec670a0cbb3553</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item"><sys_sg_data_item action="INSERT_OR_UPDATE"><condition_type>declarative</condition_type><description/><group_by/><instance_relative_url_qc/><name>All pallet</name><query_condition table="alm_hardware">x_edfm_fluid_it_pallet_nameISNOTEMPTY<item endquery="false" field="x_edfm_fluid_it_pallet_name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/></query_condition><query_condition_script/><sys_class_name>sys_sg_data_item</sys_class_name><sys_created_by>cvigneron</sys_created_by><sys_created_on>2022-05-03 11:45:31</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>bb6732a087df0d901cec670a0cbb3553</sys_id><sys_mod_count>0</sys_mod_count><sys_name>All pallet</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_data_item_bb6732a087df0d901cec670a0cbb3553</sys_update_name><sys_updated_by>cvigneron</sys_updated_by><sys_updated_on>2022-05-03 11:45:31</sys_updated_on><table>alm_hardware</table></sys_sg_data_item></record_update>]]></payload>
+        <payload_hash>-135732673</payload_hash>
+        <record_name>All pallet</record_name>
+        <reverted_from/>
+        <source>fef7da501b538554152362c5604bcbac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-05-03 11:45:31</sys_created_on>
+        <sys_id>bb67762887df0d901cec670a0cbb357d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18089bd63420000001</sys_recorded_at>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-05-03 11:45:31</sys_updated_on>
+        <type>Data Item</type>
+        <update_guid>b367762889df0d9000106fb3c5d9fa7d</update_guid>
+        <update_guid_history>b367762889df0d9000106fb3c5d9fa7d:-135732673</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-05-03 11:47:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_data_item">sys_sg_data_item</sys_db_object>
+        <sys_id>50718dc1e6e64fc8a356e30256399e81</sys_id>
+        <sys_metadata>bb6732a087df0d901cec670a0cbb3553</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All pallet</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_data_item_bb6732a087df0d901cec670a0cbb3553</sys_update_name>
+        <sys_update_version display_value="sys_sg_data_item_bb6732a087df0d901cec670a0cbb3553">bb67762887df0d901cec670a0cbb357d</sys_update_version>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-05-03 11:47:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

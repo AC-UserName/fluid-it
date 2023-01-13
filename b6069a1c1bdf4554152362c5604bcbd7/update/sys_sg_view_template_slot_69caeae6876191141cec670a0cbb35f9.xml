@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template_slot">
+    <sys_sg_view_template_slot action="INSERT_OR_UPDATE">
+        <name>image_01</name>
+        <sys_class_name>sys_sg_view_template_slot</sys_class_name>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2022-08-29 12:19:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>69caeae6876191141cec670a0cbb35f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>image_01</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_view_template_slot_69caeae6876191141cec670a0cbb35f9</sys_update_name>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2022-08-29 12:19:20</sys_updated_on>
+        <type>Image</type>
+        <view_template display_value="EDF - Asset card">adca62e6876191141cec670a0cbb358e</view_template>
+    </sys_sg_view_template_slot>
+</record_update>

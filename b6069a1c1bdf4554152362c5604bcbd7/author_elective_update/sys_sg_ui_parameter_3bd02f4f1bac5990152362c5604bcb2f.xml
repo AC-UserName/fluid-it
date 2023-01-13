@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="DELETE">
+        <button/>
+        <button_parent_table/>
+        <carried>false</carried>
+        <constant>javascript:gs.getUserID()</constant>
+        <default_value/>
+        <default_value_type>none</default_value_type>
+        <field_name/>
+        <input_source>auto</input_source>
+        <input_style>inline</input_style>
+        <input_type>constant</input_type>
+        <mandatory>false</mandatory>
+        <max_entries/>
+        <multi_entry>false</multi_entry>
+        <multi_select>false</multi_select>
+        <name>Site</name>
+        <order/>
+        <parameter_type>screen</parameter_type>
+        <placeholder/>
+        <screen display_value="Create List">58742ad81b938554152362c5604bcba2</screen>
+        <search_type>starts_with</search_type>
+        <source_field/>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-07-12 12:29:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3bd02f4f1bac5990152362c5604bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Site</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_3bd02f4f1bac5990152362c5604bcb2f</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-07-12 12:29:52</sys_updated_on>
+        <table_name/>
+        <virtual_field_value>false</virtual_field_value>
+    </sys_sg_ui_parameter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_ui_parameter_3bd02f4f1bac5990152362c5604bcb2f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter"><sys_sg_ui_parameter action="INSERT_OR_UPDATE"><button/><button_parent_table/><carried>false</carried><constant>javascript:gs.getUserID()</constant><default_value/><default_value_type>none</default_value_type><field_name/><input_source>auto</input_source><input_style>inline</input_style><input_type>constant</input_type><mandatory>false</mandatory><max_entries/><multi_entry>false</multi_entry><multi_select>false</multi_select><name>Site</name><order/><parameter_type>screen</parameter_type><placeholder/><screen display_value="Create List">58742ad81b938554152362c5604bcba2</screen><search_type>starts_with</search_type><source_field/><sys_class_name>sys_sg_ui_parameter</sys_class_name><sys_created_by>cvigneron</sys_created_by><sys_created_on>2022-07-12 12:29:52</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>3bd02f4f1bac5990152362c5604bcb2f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Site</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_ui_parameter_3bd02f4f1bac5990152362c5604bcb2f</sys_update_name><sys_updated_by>cvigneron</sys_updated_by><sys_updated_on>2022-07-12 12:29:52</sys_updated_on><table_name/><virtual_field_value>false</virtual_field_value></sys_sg_ui_parameter></record_update>]]></payload>
+        <payload_hash>-410534370</payload_hash>
+        <record_name>Site</record_name>
+        <reverted_from/>
+        <source>fef7da501b538554152362c5604bcbac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-07-12 12:29:52</sys_created_on>
+        <sys_id>7fd02f4f1bac5990152362c5604bcb32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181f26323170000001</sys_recorded_at>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-07-12 12:29:52</sys_updated_on>
+        <type>UI parameter</type>
+        <update_guid>77d02f4f09ac59909fdc87bce756a932</update_guid>
+        <update_guid_history>77d02f4f09ac59909fdc87bce756a932:-410534370</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-07-12 12:30:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_ui_parameter">sys_sg_ui_parameter</sys_db_object>
+        <sys_id>0d3e68b4d6ca4d1c872fa3718bc99609</sys_id>
+        <sys_metadata>3bd02f4f1bac5990152362c5604bcb2f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Site</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_parameter_3bd02f4f1bac5990152362c5604bcb2f</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_parameter_3bd02f4f1bac5990152362c5604bcb2f">7fd02f4f1bac5990152362c5604bcb32</sys_update_version>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-07-12 12:30:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

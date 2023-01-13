@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>script</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>create_list_old</name>
+        <query_condition/>
+        <query_condition_script><![CDATA[(function getQueryString(input) {
+
+    var counter = 0;
+    var queryString ="";
+
+var table_list = new GlideRecord('sn_hamp_assets_list')
+table_list.addQuery('u_name',input.list_name )
+table_list.query();
+if(table_list.next())
+{
+
+return "ErrorListnameAlreadyExist"; 
+}
+else
+{
+table_list.initialize();
+table_list.u_name =  input.list_name;
+table_list.u_description = input.description; 
+//table_list.insert() 
+var sysId_list = table_list.insert();
+queryString = "u_list=" + sysId_list;
+  var asset_tag = ""
+  var entered_asset_tag = input.asset_tag;
+   for (var i = 0; i < entered_asset_tag.length; i++)
+    {
+asset_tag += entered_asset_tag[i] + ',';
+  
+    var gr = new GlideRecord('alm_hardware');
+    gr.addQuery('asset_tag', 'IN', asset_tag );
+    gr.query();
+    while (gr.next()){
+       var liste = gr.u_list;
+   
+    if(liste == "")
+	{
+    gr.u_list =  sysId_list;
+	}
+  else {
+
+      var arrayUtil = new global.ArrayUtil();
+      liste = gr.u_list + ',' + sysId_list;
+		liste = liste.split(',');
+	  var array = [];
+	  array = arrayUtil.unique(liste);
+      gr.u_list = array.toString();
+  }
+gr.u_last_discovered = input.inventory_date;
+gr.u_mobile_list = sysId_list;
+gr.update();
+    } 
+   }
+	return queryString;
+   }
+  
+ 
+
+ })(input);]]></query_condition_script>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-09-29 13:18:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6ba16a60879ad5501cec670a0cbb35bc</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>create_list_old</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_data_item_6ba16a60879ad5501cec670a0cbb35bc</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-11-17 09:51:58</sys_updated_on>
+        <table>alm_hardware</table>
+    </sys_sg_data_item>
+</record_update>

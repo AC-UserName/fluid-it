@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config">
+    <sys_sg_view_config action="DELETE">
+        <active>true</active>
+        <description/>
+        <name>My Appt - SC Task List Record Screen Card</name>
+        <sys_class_name>sys_sg_view_config</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-07-06 12:42:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2a0a645d876c15501cec670a0cbb35c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Appt - SC Task List Record Screen Card</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_view_config_2a0a645d876c15501cec670a0cbb35c9</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-07-06 12:42:00</sys_updated_on>
+        <table>sc_task</table>
+        <template display_value="Applet 01">6bb0be5c41a71010f877183fc9b8be0c</template>
+    </sys_sg_view_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_view_config_2a0a645d876c15501cec670a0cbb35c9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config"><sys_sg_view_config action="INSERT_OR_UPDATE"><active>true</active><description/><name>My Appt - SC Task List Record Screen Card</name><sys_class_name>sys_sg_view_config</sys_class_name><sys_created_by>cvigneron</sys_created_by><sys_created_on>2022-07-06 12:42:00</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>2a0a645d876c15501cec670a0cbb35c9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Appt - SC Task List Record Screen Card</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_view_config_2a0a645d876c15501cec670a0cbb35c9</sys_update_name><sys_updated_by>cvigneron</sys_updated_by><sys_updated_on>2022-07-06 12:42:00</sys_updated_on><table>sc_task</table><template display_value="Applet 01">6bb0be5c41a71010f877183fc9b8be0c</template></sys_sg_view_config></record_update>]]></payload>
+        <payload_hash>-494726684</payload_hash>
+        <record_name>My Appt - SC Task List Record Screen Card</record_name>
+        <reverted_from/>
+        <source>fef7da501b538554152362c5604bcbac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-07-06 12:42:00</sys_created_on>
+        <sys_id>c71ae05d876c15501cec670a0cbb354d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181d38816cb0000001</sys_recorded_at>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-07-06 12:42:00</sys_updated_on>
+        <type>Card</type>
+        <update_guid>cf1ae05dc76c15506643e9806ba96e4c</update_guid>
+        <update_guid_history>cf1ae05dc76c15506643e9806ba96e4c:-494726684</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-07-06 13:53:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_view_config">sys_sg_view_config</sys_db_object>
+        <sys_id>106d5136d0064d91834d3999c145c019</sys_id>
+        <sys_metadata>2a0a645d876c15501cec670a0cbb35c9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Appt - SC Task List Record Screen Card</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_view_config_2a0a645d876c15501cec670a0cbb35c9</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_config_2a0a645d876c15501cec670a0cbb35c9">c71ae05d876c15501cec670a0cbb354d</sys_update_version>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-07-06 13:53:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

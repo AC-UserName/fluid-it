@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Resolve">9086eb301b681d10152362c5604bcb79</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>Résoudre l'incident</label>
+        <location>top</location>
+        <name>Résoudre l'incident</name>
+        <order>70</order>
+        <parent>448d605587ac15501cec670a0cbb351d</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-07-06 13:59:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>00db7851872055501cec670a0cbb359e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Résoudre l'incident</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_button_instance_00db7851872055501cec670a0cbb359e</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-09-20 08:06:43</sys_updated_on>
+        <table>incident</table>
+    </sys_sg_button_instance>
+</record_update>

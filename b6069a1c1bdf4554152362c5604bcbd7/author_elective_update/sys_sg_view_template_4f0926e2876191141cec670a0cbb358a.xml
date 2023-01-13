@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template">
+    <sys_sg_view_template action="DELETE">
+        <active>true</active>
+        <description>null</description>
+        <name>EDF - Asset-copy - gdo</name>
+        <preview_image/>
+        <root_view_attrs_json/>
+        <sys_class_name>sys_sg_view_template</sys_class_name>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2022-08-29 12:11:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4f0926e2876191141cec670a0cbb358a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EDF - Asset-copy - gdo</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_view_template_4f0926e2876191141cec670a0cbb358a</sys_update_name>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2022-08-29 12:11:48</sys_updated_on>
+        <template_json>{"Type":"ViewGroup","Id":"view_group_01","Orientation":"Vertical","Alignment":"Stretch","Distribution":"Auto","Margin":{"Top":16,"Bottom":16},"Children":[{"Type":"ViewGroup","Id":"view_group_02","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Margin":{"Bottom":8},"Children":[{"Type":"ViewGroup","Id":"view_group_03","Orientation":"Vertical","Alignment":"Left","Distribution":"Equal","Children":[{"Type":"ViewGroup","Id":"view_group_04","Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","BackgroundColor":"#f1f1f1","CornerRadius":2,"Height":20,"Children":[{"Type":"Text","TextColor":"#637274","Font":{"Weight":"regular","Size":10},"Margin":{"Top":3,"Bottom":3,"Left":8},"TextAlignment":"Left","CellId":"text_01","Id":"text_01"},{"Type":"Text","TextColor":"#333E3F","Font":{"Weight":"semibold","Size":14},"MaxLines":1,"textStyle":"custom","Margin":{"Top":2,"Right":8,"Bottom":2,"Left":4},"TextAlignment":"Left","CellId":"text_02","Id":"text_02"}]}]},{"Type":"ViewGroup","Id":"view_group_05","Orientation":"Vertical","Alignment":"Right","Distribution":"Equal","Children":[{"Type":"Text","TextColor":"#637274","Font":{"Weight":"regular","Size":14},"MaxLines":1,"textStyle":"custom","TextAlignment":"Right","CellId":"text_01","Id":"text_01"}]}]},{"Type":"ViewGroup","Id":"view_group_06","Orientation":"Vertical","Alignment":"Left","Distribution":"Equal","Margin":{"Bottom":0,"Top":0},"Children":[{"Type":"ViewGroup","Id":"view_group_07","Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Margin":{},"Children":[{"Type":"Text","CellId":"text_01","Id":"text_01","TextColor":"#637274","Font":{"Weight":"regular","Size":14},"MaxLines":1,"textStyle":"custom","TextAlignment":"Left"},{"Type":"Text","TextColor":"#637274","Font":{"Weight":"semibold","Size":14},"MaxLines":1,"textStyle":"custom","Margin":{"Left":4},"CellId":"text_02","Id":"text_02","TextAlignment":"Left"}]}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_01","Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_08","Id":"text_08"}]},{"Type":"ViewGroup","Id":"view_group_08","Orientation":"Vertical","Alignment":"Left","Distribution":"Equal","Margin":{"Top":8},"Children":[{"Type":"ViewGroup","Id":"view_group_09","Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Margin":{},"Children":[{"Type":"Image","CellId":"image_01","Id":"image_01","Scaling":"Fill","Height":24,"Width":24,"CornerRadius":12,"Margin":{"Right":8}},{"Type":"Text","TextColor":"#637274","Font":{"Weight":"regular","Size":14},"MaxLines":1,"textStyle":"custom","Margin":{"Right":4},"CellId":"text_01","Id":"text_01"},{"Type":"Text","TextColor":"#637274","Font":{"Weight":"semibold","Size":14},"MaxLines":1,"textStyle":"custom","CellId":"text_02","Id":"text_02"}]}]}]}</template_json>
+    </sys_sg_view_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_view_template_4f0926e2876191141cec670a0cbb358a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template"><sys_sg_view_template action="INSERT_OR_UPDATE"><active>true</active><description>null</description><name>EDF - Asset-copy - gdo</name><preview_image/><root_view_attrs_json/><sys_class_name>sys_sg_view_template</sys_class_name><sys_created_by>GD073B5L</sys_created_by><sys_created_on>2022-08-29 12:11:48</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>4f0926e2876191141cec670a0cbb358a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>EDF - Asset-copy - gdo</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_view_template_4f0926e2876191141cec670a0cbb358a</sys_update_name><sys_updated_by>GD073B5L</sys_updated_by><sys_updated_on>2022-08-29 12:11:48</sys_updated_on><template_json>{"Type":"ViewGroup","Id":"view_group_01","Orientation":"Vertical","Alignment":"Stretch","Distribution":"Auto","Margin":{"Top":16,"Bottom":16},"Children":[{"Type":"ViewGroup","Id":"view_group_02","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Margin":{"Bottom":8},"Children":[{"Type":"ViewGroup","Id":"view_group_03","Orientation":"Vertical","Alignment":"Left","Distribution":"Equal","Children":[{"Type":"ViewGroup","Id":"view_group_04","Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","BackgroundColor":"#f1f1f1","CornerRadius":2,"Height":20,"Children":[{"Type":"Text","TextColor":"#637274","Font":{"Weight":"regular","Size":10},"Margin":{"Top":3,"Bottom":3,"Left":8},"TextAlignment":"Left","CellId":"text_01","Id":"text_01"},{"Type":"Text","TextColor":"#333E3F","Font":{"Weight":"semibold","Size":14},"MaxLines":1,"textStyle":"custom","Margin":{"Top":2,"Right":8,"Bottom":2,"Left":4},"TextAlignment":"Left","CellId":"text_02","Id":"text_02"}]}]},{"Type":"ViewGroup","Id":"view_group_05","Orientation":"Vertical","Alignment":"Right","Distribution":"Equal","Children":[{"Type":"Text","TextColor":"#637274","Font":{"Weight":"regular","Size":14},"MaxLines":1,"textStyle":"custom","TextAlignment":"Right","CellId":"text_01","Id":"text_01"}]}]},{"Type":"ViewGroup","Id":"view_group_06","Orientation":"Vertical","Alignment":"Left","Distribution":"Equal","Margin":{"Bottom":0,"Top":0},"Children":[{"Type":"ViewGroup","Id":"view_group_07","Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Margin":{},"Children":[{"Type":"Text","CellId":"text_01","Id":"text_01","TextColor":"#637274","Font":{"Weight":"regular","Size":14},"MaxLines":1,"textStyle":"custom","TextAlignment":"Left"},{"Type":"Text","TextColor":"#637274","Font":{"Weight":"semibold","Size":14},"MaxLines":1,"textStyle":"custom","Margin":{"Left":4},"CellId":"text_02","Id":"text_02","TextAlignment":"Left"}]}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_01","Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_08","Id":"text_08"}]},{"Type":"ViewGroup","Id":"view_group_08","Orientation":"Vertical","Alignment":"Left","Distribution":"Equal","Margin":{"Top":8},"Children":[{"Type":"ViewGroup","Id":"view_group_09","Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Margin":{},"Children":[{"Type":"Image","CellId":"image_01","Id":"image_01","Scaling":"Fill","Height":24,"Width":24,"CornerRadius":12,"Margin":{"Right":8}},{"Type":"Text","TextColor":"#637274","Font":{"Weight":"regular","Size":14},"MaxLines":1,"textStyle":"custom","Margin":{"Right":4},"CellId":"text_01","Id":"text_01"},{"Type":"Text","TextColor":"#637274","Font":{"Weight":"semibold","Size":14},"MaxLines":1,"textStyle":"custom","CellId":"text_02","Id":"text_02"}]}]}]}</template_json></sys_sg_view_template></record_update>]]></payload>
+        <payload_hash>-7091164</payload_hash>
+        <record_name>EDF - Asset-copy - gdo</record_name>
+        <reverted_from/>
+        <source>b206525c1b138554152362c5604bcb0f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2022-08-29 12:11:48</sys_created_on>
+        <sys_id>8f0926e2876191141cec670a0cbb358d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182e983d7d20000001</sys_recorded_at>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2022-08-29 12:11:48</sys_updated_on>
+        <type>Card template</type>
+        <update_guid>870926e22a619114604eb87d74f93c8d</update_guid>
+        <update_guid_history>870926e22a619114604eb87d74f93c8d:-7091164</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2022-08-29 12:17:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_view_template">sys_sg_view_template</sys_db_object>
+        <sys_id>1d420adc003c4334838593b18aba0b90</sys_id>
+        <sys_metadata>4f0926e2876191141cec670a0cbb358a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EDF - Asset-copy - gdo</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_view_template_4f0926e2876191141cec670a0cbb358a</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_template_4f0926e2876191141cec670a0cbb358a">8f0926e2876191141cec670a0cbb358d</sys_update_version>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2022-08-29 12:17:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

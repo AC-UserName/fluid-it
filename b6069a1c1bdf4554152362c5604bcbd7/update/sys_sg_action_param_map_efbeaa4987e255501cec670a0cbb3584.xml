@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Displacement">85d336241b161d50152362c5604bcbd6</button>
+        <item_parameter display_value="floor">d386c5d587a799541cec670a0cbb35b0</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-10-13 13:48:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>efbeaa4987e255501cec670a0cbb3584</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>d386c5d587a799541cec670a0cbb35b0</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_efbeaa4987e255501cec670a0cbb3584</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-12-05 08:30:25</sys_updated_on>
+        <ui_parameter display_value="Floor">de0eeec587e255501cec670a0cbb3568</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

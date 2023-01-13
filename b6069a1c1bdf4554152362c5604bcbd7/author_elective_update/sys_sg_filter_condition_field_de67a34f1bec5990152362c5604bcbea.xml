@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_filter_condition_field">
+    <sys_sg_filter_condition_field action="DELETE">
+        <description/>
+        <field>u_list</field>
+        <name>List name</name>
+        <sys_class_name>sys_sg_filter_condition_field</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-07-12 12:58:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>de67a34f1bec5990152362c5604bcbea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List name</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_filter_condition_field_de67a34f1bec5990152362c5604bcbea</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-07-12 12:58:26</sys_updated_on>
+        <table>alm_hardware</table>
+    </sys_sg_filter_condition_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_filter_condition_field_de67a34f1bec5990152362c5604bcbea</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_filter_condition_field"><sys_sg_filter_condition_field action="INSERT_OR_UPDATE"><description/><field>u_list</field><name>List name</name><sys_class_name>sys_sg_filter_condition_field</sys_class_name><sys_created_by>cvigneron</sys_created_by><sys_created_on>2022-07-12 12:58:26</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>de67a34f1bec5990152362c5604bcbea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>List name</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_filter_condition_field_de67a34f1bec5990152362c5604bcbea</sys_update_name><sys_updated_by>cvigneron</sys_updated_by><sys_updated_on>2022-07-12 12:58:26</sys_updated_on><table>alm_hardware</table></sys_sg_filter_condition_field></record_update>]]></payload>
+        <payload_hash>-1425755508</payload_hash>
+        <record_name>List name</record_name>
+        <reverted_from/>
+        <source>fef7da501b538554152362c5604bcbac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-07-12 12:58:26</sys_created_on>
+        <sys_id>d667a34f1bec5990152362c5604bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181f27d4a1f0000001</sys_recorded_at>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-07-12 12:58:26</sys_updated_on>
+        <type>Filter Condition Field</type>
+        <update_guid>de67a34f76ec599004068bd565b3e9ec</update_guid>
+        <update_guid_history>de67a34f76ec599004068bd565b3e9ec:-1425755508</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-09-28 08:06:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_filter_condition_field">sys_sg_filter_condition_field</sys_db_object>
+        <sys_id>68ee123e33b046b4b5a00d0b570d91a4</sys_id>
+        <sys_metadata>de67a34f1bec5990152362c5604bcbea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List name</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_filter_condition_field_de67a34f1bec5990152362c5604bcbea</sys_update_name>
+        <sys_update_version display_value="sys_sg_filter_condition_field_de67a34f1bec5990152362c5604bcbea">d667a34f1bec5990152362c5604bcbed</sys_update_version>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-09-28 08:06:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Asset Management" source="com.snc.asset_management">dd0c578cdb2332004465f1eabf9619a4</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-05-03 11:24:14</sys_created_on>
+        <sys_id>c8927a60879f0d901cec670a0cbb35ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-05-03 11:24:14</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

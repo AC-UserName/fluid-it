@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Swap">012736e81b605910152362c5604bcbfc</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>Swap</label>
+        <location>top</location>
+        <name>Swap</name>
+        <order>40</order>
+        <parent>552d8e9f871cdd501cec670a0cbb3572</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-07-04 15:16:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ba5afea01ba05910152362c5604bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Swap</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_button_instance_ba5afea01ba05910152362c5604bcb2d</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-07-04 15:16:46</sys_updated_on>
+        <table>task</table>
+    </sys_sg_button_instance>
+</record_update>

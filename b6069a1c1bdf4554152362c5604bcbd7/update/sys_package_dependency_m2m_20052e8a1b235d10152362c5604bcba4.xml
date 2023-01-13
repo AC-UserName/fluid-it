@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">36da5f44db2332004465f1eabf96195c</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2022-12-05 08:42:45</sys_created_on>
+        <sys_id>20052e8a1b235d10152362c5604bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2022-12-05 08:42:45</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

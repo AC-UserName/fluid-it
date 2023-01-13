@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>script</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>complete_list</name>
+        <query_condition/>
+        <query_condition_script><![CDATA[(function getQueryString(input) {
+
+    var counter = 0;
+    var queryString ="";
+    var list = input.list_name
+
+  //  var inventory_date = new GlideDateTime();
+  var asset_tag = ""
+  var entered_asset_tag = input.asset_tag;
+    for (var i = 0; i < entered_asset_tag.length; i++)
+    {
+asset_tag += entered_asset_tag[i] + ','
+    } 
+    var gr = new GlideRecord('alm_hardware');
+    gr.addQuery('asset_tag', 'IN', asset_tag );
+    gr.query();
+    while (gr.next()){
+        if (counter == 0){
+           queryString += "asset_tagIN"+asset_tag+"^EQ";
+   
+        }
+        else{
+ 
+            queryString += "^ORasset_tagIN"+asset_tag+"^EQ";
+        }
+        counter += 1;
+        
+        var asset_list = gr.u_list
+       
+       if(asset_list != "")
+        asset_list = asset_list +','+list
+        else
+        asset_list = list
+        
+        gr.u_list = asset_list;
+        gr.u_last_discovered = input.inventory_date
+       gr.update();
+    }
+    if(counter == 0){
+                 
+            return "asset_tagIN"+asset_tag+"^EQ"
+        }
+	 return queryString; 
+ })(input);]]></query_condition_script>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-05-02 15:42:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ab04ea981b938554152362c5604bcba1</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>complete_list</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_data_item_ab04ea981b938554152362c5604bcba1</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-09-29 13:13:38</sys_updated_on>
+        <table>alm_hardware</table>
+    </sys_sg_data_item>
+</record_update>

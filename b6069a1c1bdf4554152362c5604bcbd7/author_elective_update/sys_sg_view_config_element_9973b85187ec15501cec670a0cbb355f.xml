@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="DELETE">
+        <name>text_06_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-07-06 13:22:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9973b85187ec15501cec670a0cbb355f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_06_element</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_9973b85187ec15501cec670a0cbb355f</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-07-06 13:22:50</sys_updated_on>
+        <view_config display_value="Appointment INC Card">408d605587ac15501cec670a0cbb3515</view_config>
+        <view_template_slot display_value="text_06">cb878d7041275010f877183fc9b8be59</view_template_slot>
+    </sys_sg_view_config_element>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_view_config_element_9973b85187ec15501cec670a0cbb355f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element"><sys_sg_view_config_element action="INSERT_OR_UPDATE"><name>text_06_element</name><sys_class_name>sys_sg_view_config_element</sys_class_name><sys_created_by>cvigneron</sys_created_by><sys_created_on>2022-07-06 13:22:50</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>9973b85187ec15501cec670a0cbb355f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>text_06_element</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_view_config_element_9973b85187ec15501cec670a0cbb355f</sys_update_name><sys_updated_by>cvigneron</sys_updated_by><sys_updated_on>2022-07-06 13:22:50</sys_updated_on><view_config display_value="Appointment INC Card">408d605587ac15501cec670a0cbb3515</view_config><view_template_slot display_value="text_06">cb878d7041275010f877183fc9b8be59</view_template_slot></sys_sg_view_config_element></record_update>]]></payload>
+        <payload_hash>1211442820</payload_hash>
+        <record_name>text_06_element</record_name>
+        <reverted_from/>
+        <source>fef7da501b538554152362c5604bcbac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-07-06 13:22:50</sys_created_on>
+        <sys_id>1d73b85187ec15501cec670a0cbb3561</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181d3ad7be70000001</sys_recorded_at>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-07-06 13:22:50</sys_updated_on>
+        <type>Card element</type>
+        <update_guid>1573b851f6ec1550d4bf03a1a4c6e961</update_guid>
+        <update_guid_history>1573b851f6ec1550d4bf03a1a4c6e961:1211442820</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-08-29 13:27:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_view_config_element">sys_sg_view_config_element</sys_db_object>
+        <sys_id>2ae8b1c6105549f897e63eca4da88191</sys_id>
+        <sys_metadata>9973b85187ec15501cec670a0cbb355f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_06_element</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_view_config_element_9973b85187ec15501cec670a0cbb355f</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_config_element_9973b85187ec15501cec670a0cbb355f">1d73b85187ec15501cec670a0cbb3561</sys_update_version>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-08-29 13:27:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

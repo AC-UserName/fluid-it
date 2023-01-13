@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule">
+    <sys_sg_ui_rule action="DELETE">
+        <active>true</active>
+        <condition/>
+        <name>TEST</name>
+        <order/>
+        <parent_id>408d605587ac15501cec670a0cbb3515</parent_id>
+        <parent_table>sys_sg_view_config</parent_table>
+        <reverse_if_false>false</reverse_if_false>
+        <sys_class_name>sys_sg_ui_rule</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-09-16 09:53:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8bd572988706d5501cec670a0cbb3561</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEST</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_ui_rule_8bd572988706d5501cec670a0cbb3561</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-09-16 09:53:28</sys_updated_on>
+        <trigger>fd680bd85b431010da168d8fa881c7c8</trigger>
+    </sys_sg_ui_rule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_ui_rule_8bd572988706d5501cec670a0cbb3561</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule"><sys_sg_ui_rule action="INSERT_OR_UPDATE"><active>true</active><condition/><name>TEST</name><order/><parent_id>408d605587ac15501cec670a0cbb3515</parent_id><parent_table>sys_sg_view_config</parent_table><reverse_if_false>false</reverse_if_false><sys_class_name>sys_sg_ui_rule</sys_class_name><sys_created_by>cvigneron</sys_created_by><sys_created_on>2022-09-16 09:53:28</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>8bd572988706d5501cec670a0cbb3561</sys_id><sys_mod_count>0</sys_mod_count><sys_name>TEST</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_ui_rule_8bd572988706d5501cec670a0cbb3561</sys_update_name><sys_updated_by>cvigneron</sys_updated_by><sys_updated_on>2022-09-16 09:53:28</sys_updated_on><trigger>fd680bd85b431010da168d8fa881c7c8</trigger></sys_sg_ui_rule></record_update>]]></payload>
+        <payload_hash>-468450814</payload_hash>
+        <record_name>TEST</record_name>
+        <reverted_from/>
+        <source>3267c952874dddd01cec670a0cbb35b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-09-16 09:53:28</sys_created_on>
+        <sys_id>200672988706d5501cec670a0cbb3551</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18345b7ad8c0000001</sys_recorded_at>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-09-16 09:53:28</sys_updated_on>
+        <type>Mobile UI Rule</type>
+        <update_guid>280672988606d55023e269df71f4fa50</update_guid>
+        <update_guid_history>280672988606d55023e269df71f4fa50:-468450814</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-09-16 09:53:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_ui_rule">sys_sg_ui_rule</sys_db_object>
+        <sys_id>a9452db8a9eb4643891aff8565bba421</sys_id>
+        <sys_metadata>8bd572988706d5501cec670a0cbb3561</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEST</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_rule_8bd572988706d5501cec670a0cbb3561</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_rule_8bd572988706d5501cec670a0cbb3561">200672988706d5501cec670a0cbb3551</sys_update_version>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-09-16 09:53:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

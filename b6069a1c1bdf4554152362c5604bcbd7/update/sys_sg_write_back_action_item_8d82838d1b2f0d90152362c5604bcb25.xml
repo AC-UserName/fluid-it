@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+    var queryString = '';
+    var scan = input.Scan;
+    var entered_asset_tag = input.asset_tag;
+    var asset_list = "";
+    var state = "";
+    var support_group = "";
+    var location = "";
+    var stockroom = "";
+    var substate = "";
+    var update_error = false;
+    var list_id_error = [];
+	
+	gs.info('append_query : '  + input.append_query);
+
+    var regex = "";
+    if (scan.indexOf('stockroom') > -1) {
+        regex = /stockroom=(.*?)\,/gi;
+        stockroom = regex.exec(scan)[1];
+    }
+    if (scan.indexOf('substate') > -1) {
+        regex = /substate=(.*?)\,/gi;
+        substate = regex.exec(scan)[1];
+    }
+
+    if (scan.indexOf('loc') > -1) {
+        regex = /loc=(.*?)\,/gi;
+        location = regex.exec(scan)[1];
+    }
+    if (scan.indexOf("state") > -1) {
+        regex = /state=(.*?)\,/gi;
+        state = regex.exec(scan)[1];
+    }
+    if (scan.indexOf("group") > -1) {
+        regex = /group=(.*?)\,/gi;
+        support_group = regex.exec(scan)[1];
+    }
+
+    for (var i = 0; i < entered_asset_tag.length; i++) {
+        asset_list += entered_asset_tag[i] + ',';
+        gs.info('test CSE visu fluidit ' + entered_asset_tag[i]);
+        var asset_gr = new GlideRecord('alm_hardware');
+        asset_gr.addQuery('asset_tag', entered_asset_tag[i]);
+        asset_gr.query();
+        if (asset_gr.next()) {
+            gs.info('test CSE visu fluidit ' + asset_gr.asset_tag);
+            asset_gr.install_status = state;
+            var loc = new GlideRecord('cmn_location');
+            loc.addQuery('u_display_name', location);
+            loc.query();
+            if (loc.next()) {
+                asset_gr.location = loc.sys_id;
+            }
+            var gr_support_group = new GlideRecord('sys_user_group');
+            gr_support_group.addQuery('name', support_group);
+            gr_support_group.query();
+            if (gr_support_group.next()) {
+                asset_gr.support_group = gr_support_group.sys_id;
+            }
+            if (stockroom != "") {
+                var gr_stock = new GlideRecord('alm_stockroom');
+                gr_stock.addQuery('name', stockroom);
+                gr_stock.query();
+
+                if (gr_stock.next()) {
+                    asset_gr.stockroom = gr_stock.sys_id;
+                }
+
+            }
+            if (substate != "") {
+                asset_gr.substatus = substate;
+            }
+			
+			if (!global.JSUtil.nil(input.gl_account)){
+			asset_gr.setValue('gl_account', input.gl_account);
+		}
+		if (!global.JSUtil.nil(input.rank)){
+			asset_gr.setValue('u_rank', input.rank);
+		}
+		
+		if (!global.JSUtil.nil(input.list)){
+			asset_gr.setValue('u_list', input.list);
+		}
+			
+		if (!global.JSUtil.nil(input.reasons)){
+			asset_gr.setValue('u_reasons', input.reasons);
+		}
+			
+		if (!global.JSUtil.nil(input.logical_stockroom)){
+			asset_gr.setValue('u_logical_stockroom', input.logical_stockroom);
+		}
+
+            asset_gr.u_last_discovered = input.inventory_date;
+            // Prevent from a modification after an update has been executed on the concerned asset
+            // Beginning
+            var updateDateStr = asset_gr.sys_updated_on.getDisplayValue();
+            //	var updateDateStrM = moment(updateDateStr, 'DD/MM/YYYY HH:mm:ss').format("YYYY-MM-DD HH:mm:ss"); 
+            // function "moment" is not known, split of the date to obtain the format "YYYY-MM-DD HH:mm:ss"
+            var d1 = updateDateStr.split(" ");
+            var date = d1[0].split("/");
+            var time = d1[1].split(":");
+            var dd = date[0];
+            var mm = date[1];
+            var yy = date[2];
+            var hh = time[0];
+            var min = time[1];
+            var ss = time[2];
+            var dateResult = yy + '-' + mm + '-' + dd + ' ' + hh + ':' + min + ':' + ss;
+            var updateDate = new GlideDateTime(dateResult);
+
+            var inventoryDate = new GlideDateTime(input.inventory_date);
+            gs.info('teset CSE maj  inventory date ' + inventoryDate + ' -update date ' + updateDate + ' -update date STR ' + dateResult);
+
+            if (gs.getUser().isMemberOf(asset_gr.getDisplayValue('u_fleet_manager'))) {
+                if (updateDate.getNumericValue() < inventoryDate.getNumericValue()) {
+
+                    asset_gr.update();
+                    gs.info('teset CSE maj acceptée !!!');
+                } else {
+                    update_error = true;
+                    //list_id_error.push(asset_gr.asset_tag);
+                    list_id_error.push(asset_gr.sys_id);
+                    var msg = "La mise à jour pour l actif " + asset_gr.display_name + " n est pas possible car une mise à jour plus récente a été détectée.";
+                    gs.addErrorMessage(msg);
+                    gs.info('teset CSE maj refusée !!!');
+
+                }
+            } else {
+                update_error = true;
+                var msg = "La mise à jour de l'actif  " + asset_gr.asset_tag + " n'a pas été réalisée en raison des règles d'accès.";
+                gs.addErrorMessage(msg);
+            }
+
+            // End	
+            //       asset_gr.update();
+        } else {
+            gs.error("update_asset: (asset_tag) doesn't exists!");
+            gs.addErrorMessage(gs.getMessage("Failed to update asset. That asset tag doesn't exists!"));
+        }
+        var assetID = asset_gr.sys_id.toString();
+
+        if (update_error == true) {
+            gs.eventQueue('x_edfm_fluid_it.mass_update.error', asset_gr, gs.getUserID(), assetID);
+            update_error = false;
+            //gs.eventQueue('x_edfm_fluid_it.mass_update.error',  asset_gr, gs.getUserID(), list_id_error );
+            //gs.info('teset CSE maj list_id_error ' + list_id_error);
+        }
+    }
+
+})(input);]]></execution_script>
+        <name>mass_update_action</name>
+        <parameter_screen/>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-05-17 12:07:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8d82838d1b2f0d90152362c5604bcb25</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_name>mass_update_action</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_8d82838d1b2f0d90152362c5604bcb25</sys_update_name>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2023-01-04 15:27:38</sys_updated_on>
+        <table/>
+        <template/>
+        <type>script</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+</record_update>

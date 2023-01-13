@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="DELETE">
+        <button display_value="Asset update">b3d141d787d0dd501cec670a0cbb350d</button>
+        <item_parameter display_value="reason">b85c656787c0a9141cec670a0cbb353a</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2023-01-03 16:59:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7bace5e787c0a9141cec670a0cbb35a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b85c656787c0a9141cec670a0cbb353a</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_7bace5e787c0a9141cec670a0cbb35a6</sys_update_name>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2023-01-03 16:59:11</sys_updated_on>
+        <ui_parameter display_value="Motif">88dbe5e387c0a9141cec670a0cbb3540</ui_parameter>
+    </sys_sg_action_param_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_action_param_map_7bace5e787c0a9141cec670a0cbb35a6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map"><sys_sg_action_param_map action="INSERT_OR_UPDATE"><button display_value="Asset update">b3d141d787d0dd501cec670a0cbb350d</button><item_parameter display_value="reason">b85c656787c0a9141cec670a0cbb353a</item_parameter><sys_class_name>sys_sg_action_param_map</sys_class_name><sys_created_by>GD073B5L</sys_created_by><sys_created_on>2023-01-03 16:59:11</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>7bace5e787c0a9141cec670a0cbb35a6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>b85c656787c0a9141cec670a0cbb353a</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_action_param_map_7bace5e787c0a9141cec670a0cbb35a6</sys_update_name><sys_updated_by>GD073B5L</sys_updated_by><sys_updated_on>2023-01-03 16:59:11</sys_updated_on><ui_parameter display_value="Motif">88dbe5e387c0a9141cec670a0cbb3540</ui_parameter></sys_sg_action_param_map></record_update>]]></payload>
+        <payload_hash>1573396624</payload_hash>
+        <record_name>b85c656787c0a9141cec670a0cbb353a</record_name>
+        <reverted_from/>
+        <source>f83b7ce3870c69141cec670a0cbb35f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2023-01-03 16:59:11</sys_created_on>
+        <sys_id>c7bc616b87c0a9141cec670a0cbb35b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185789297520000001</sys_recorded_at>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2023-01-03 16:59:11</sys_updated_on>
+        <type>Action parameters mapping</type>
+        <update_guid>c7bce5e7cbc0a9148259918c9d72b3ad</update_guid>
+        <update_guid_history>c7bce5e7cbc0a9148259918c9d72b3ad:1573396624</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2023-01-08 08:09:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_action_param_map">sys_sg_action_param_map</sys_db_object>
+        <sys_id>07612173af314d3885fb2c1064345f44</sys_id>
+        <sys_metadata>7bace5e787c0a9141cec670a0cbb35a6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b85c656787c0a9141cec670a0cbb353a</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_action_param_map_7bace5e787c0a9141cec670a0cbb35a6</sys_update_name>
+        <sys_update_version display_value="sys_sg_action_param_map_7bace5e787c0a9141cec670a0cbb35a6">c7bc616b87c0a9141cec670a0cbb35b8</sys_update_version>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2023-01-08 08:09:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

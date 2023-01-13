@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>TKO List</name>
+        <query_condition table="alm_asset">u_listLIKE{{Hamp List}}^EQ<item endquery="false" field="u_list" goto="false" newquery="false" operator="LIKE" or="false" value="{{Hamp List}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>tkoumphol</sys_created_by>
+        <sys_created_on>2022-11-03 16:28:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>236c9f7b1bb21dd0152362c5604bcbd4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>TKO List</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_data_item_236c9f7b1bb21dd0152362c5604bcbd4</sys_update_name>
+        <sys_updated_by>tkoumphol</sys_updated_by>
+        <sys_updated_on>2022-11-03 16:29:44</sys_updated_on>
+        <table>alm_asset</table>
+    </sys_sg_data_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_data_item_236c9f7b1bb21dd0152362c5604bcbd4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item"><sys_sg_data_item action="INSERT_OR_UPDATE"><condition_type>declarative</condition_type><description/><group_by/><instance_relative_url_qc/><name>TKO List</name><query_condition table="alm_asset">u_listLIKE{{Hamp List}}^EQ<item endquery="false" field="u_list" goto="false" newquery="false" operator="LIKE" or="false" value="{{Hamp List}}"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></query_condition><query_condition_script/><sys_class_name>sys_sg_data_item</sys_class_name><sys_created_by>tkoumphol</sys_created_by><sys_created_on>2022-11-03 16:28:01</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>236c9f7b1bb21dd0152362c5604bcbd4</sys_id><sys_mod_count>1</sys_mod_count><sys_name>TKO List</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_data_item_236c9f7b1bb21dd0152362c5604bcbd4</sys_update_name><sys_updated_by>tkoumphol</sys_updated_by><sys_updated_on>2022-11-03 16:29:44</sys_updated_on><table>alm_asset</table></sys_sg_data_item></record_update>]]></payload>
+        <payload_hash>1857147514</payload_hash>
+        <record_name>TKO List</record_name>
+        <reverted_from/>
+        <source>b206525c1b138554152362c5604bcb0f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tkoumphol</sys_created_by>
+        <sys_created_on>2022-11-03 16:29:44</sys_created_on>
+        <sys_id>890d5bfb1bb21dd0152362c5604bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1843e53b7950000001</sys_recorded_at>
+        <sys_updated_by>tkoumphol</sys_updated_by>
+        <sys_updated_on>2022-11-03 16:29:44</sys_updated_on>
+        <type>Data Item</type>
+        <update_guid>010d5bfb03b21dd066c2dd1bfffa1919</update_guid>
+        <update_guid_history>010d5bfb03b21dd066c2dd1bfffa1919:1857147514,f79c57bbf2b21dd0b54733170e53a62e:1467162512</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tkoumphol</sys_created_by>
+        <sys_created_on>2022-11-03 16:30:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_data_item">sys_sg_data_item</sys_db_object>
+        <sys_id>149916edce2e46a89b5a3e4969e0a810</sys_id>
+        <sys_metadata>236c9f7b1bb21dd0152362c5604bcbd4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TKO List</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_data_item_236c9f7b1bb21dd0152362c5604bcbd4</sys_update_name>
+        <sys_update_version display_value="sys_sg_data_item_236c9f7b1bb21dd0152362c5604bcbd4">890d5bfb1bb21dd0152362c5604bcb19</sys_update_version>
+        <sys_updated_by>tkoumphol</sys_updated_by>
+        <sys_updated_on>2022-11-03 16:30:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

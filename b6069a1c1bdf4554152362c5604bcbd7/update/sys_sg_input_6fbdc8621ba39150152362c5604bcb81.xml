@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input">
+    <sys_sg_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <autofill_variable/>
+        <category/>
+        <description/>
+        <label>Asset Tag</label>
+        <mandatory>false</mandatory>
+        <name>asset_tag</name>
+        <order/>
+        <page/>
+        <parameter_screen display_value="asset location">5230c999876799541cec670a0cbb3592</parameter_screen>
+        <parameter_section/>
+        <placeholder/>
+        <readonly>false</readonly>
+        <sys_class_name>sys_sg_input</sys_class_name>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2022-12-06 10:59:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6fbdc8621ba39150152362c5604bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Asset Tag</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_input_6fbdc8621ba39150152362c5604bcb81</sys_update_name>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2022-12-06 10:59:28</sys_updated_on>
+        <type display_value="String">7debec1517021010f2b43b9fadb959e3</type>
+    </sys_sg_input>
+</record_update>

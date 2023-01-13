@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
+        <item_stream display_value="RDV incidents">552e209587ac15501cec670a0cbb358e</item_stream>
+        <master_item display_value="Appointment INC List Item Config">088d605587ac15501cec670a0cbb3527</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-07-06 13:04:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>639ee4d587ac15501cec670a0cbb357a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_639ee4d587ac15501cec670a0cbb357a</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-07-06 13:04:06</sys_updated_on>
+    </sys_sg_item_stream_m2m_master_item>
+</record_update>

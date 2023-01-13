@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="DELETE">
+        <item_stream display_value="Appointment INC List Stream">cc8d605587ac15501cec670a0cbb3511</item_stream>
+        <master_item display_value="Appointment INC outdated">40f1e9608792d5501cec670a0cbb35b4</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-09-29 08:42:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2e72eda08792d5501cec670a0cbb3513</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_2e72eda08792d5501cec670a0cbb3513</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-09-29 08:42:55</sys_updated_on>
+    </sys_sg_item_stream_m2m_master_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_item_stream_m2m_master_item_2e72eda08792d5501cec670a0cbb3513</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item"><sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE"><item_stream display_value="Appointment INC List Stream">cc8d605587ac15501cec670a0cbb3511</item_stream><master_item display_value="Appointment INC outdated">40f1e9608792d5501cec670a0cbb35b4</master_item><sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name><sys_created_by>cvigneron</sys_created_by><sys_created_on>2022-09-29 08:42:55</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>2e72eda08792d5501cec670a0cbb3513</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_item_stream_m2m_master_item_2e72eda08792d5501cec670a0cbb3513</sys_update_name><sys_updated_by>cvigneron</sys_updated_by><sys_updated_on>2022-09-29 08:42:55</sys_updated_on></sys_sg_item_stream_m2m_master_item></record_update>]]></payload>
+        <payload_hash>-1192469609</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3267c952874dddd01cec670a0cbb35b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-09-29 08:42:55</sys_created_on>
+        <sys_id>718261e08792d5501cec670a0cbb35cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1838869c2030000001</sys_recorded_at>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-09-29 08:42:55</sys_updated_on>
+        <type>Stream M2M item config</type>
+        <update_guid>798261e0dc92d550baecc487fec99cca</update_guid>
+        <update_guid_history>798261e0dc92d550baecc487fec99cca:-1192469609</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-09-29 09:13:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_item_stream_m2m_master_item">sys_sg_item_stream_m2m_master_item</sys_db_object>
+        <sys_id>2cff2ca4d25947e8889a93184b2c0601</sys_id>
+        <sys_metadata>2e72eda08792d5501cec670a0cbb3513</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_2e72eda08792d5501cec670a0cbb3513</sys_update_name>
+        <sys_update_version display_value="sys_sg_item_stream_m2m_master_item_2e72eda08792d5501cec670a0cbb3513">718261e08792d5501cec670a0cbb35cb</sys_update_version>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-09-29 09:13:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

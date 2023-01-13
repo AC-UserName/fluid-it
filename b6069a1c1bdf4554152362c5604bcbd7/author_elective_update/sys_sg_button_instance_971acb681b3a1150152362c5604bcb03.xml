@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="DELETE">
+        <active>true</active>
+        <button display_value="Remove asset">eb4a66e387ead5d01cec670a0cbb3525</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>remove asset</label>
+        <location>top</location>
+        <name>remove asset</name>
+        <order>10</order>
+        <parent>2bd1c9a11bf5dd54152362c5604bcb9c</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2022-10-24 12:46:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>971acb681b3a1150152362c5604bcb03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>remove asset</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_button_instance_971acb681b3a1150152362c5604bcb03</sys_update_name>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2022-10-24 12:46:54</sys_updated_on>
+        <table>sn_hamp_assets_list</table>
+    </sys_sg_button_instance>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</application>
+        <file_path/>
+        <instance_id>ae6beb5adb637010f492c5970596199c</instance_id>
+        <instance_name>itzminonprod1</instance_name>
+        <name>sys_sg_button_instance_971acb681b3a1150152362c5604bcb03</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance"><sys_sg_button_instance action="INSERT_OR_UPDATE"><active>true</active><button display_value="Remove asset">eb4a66e387ead5d01cec670a0cbb3525</button><color_theme>primary</color_theme><description/><field_name/><icon/><label>remove asset</label><location>top</location><name>remove asset</name><order>10</order><parent>2bd1c9a11bf5dd54152362c5604bcb9c</parent><parent_table>sys_sg_screen</parent_table><sys_class_name>sys_sg_button_instance</sys_class_name><sys_created_by>GD073B5L</sys_created_by><sys_created_on>2022-10-24 12:46:54</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>971acb681b3a1150152362c5604bcb03</sys_id><sys_mod_count>0</sys_mod_count><sys_name>remove asset</sys_name><sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope><sys_update_name>sys_sg_button_instance_971acb681b3a1150152362c5604bcb03</sys_update_name><sys_updated_by>GD073B5L</sys_updated_by><sys_updated_on>2022-10-24 12:46:54</sys_updated_on><table>sn_hamp_assets_list</table></sys_sg_button_instance></record_update>]]></payload>
+        <payload_hash>800655078</payload_hash>
+        <record_name>remove asset</record_name>
+        <reverted_from/>
+        <source>b206525c1b138554152362c5604bcb0f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2022-10-24 12:46:54</sys_created_on>
+        <sys_id>931acb681b3a1150152362c5604bcb07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1840a081b010000001</sys_recorded_at>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2022-10-24 12:46:54</sys_updated_on>
+        <type>Function instance</type>
+        <update_guid>9b1acb68fd3a1150a4e89785be154006</update_guid>
+        <update_guid_history>9b1acb68fd3a1150a4e89785be154006:800655078</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>GD073B5L</sys_created_by>
+        <sys_created_on>2022-10-24 15:39:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_button_instance">sys_sg_button_instance</sys_db_object>
+        <sys_id>0871bd293dff4c5090a5be1caffd2240</sys_id>
+        <sys_metadata>971acb681b3a1150152362c5604bcb03</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>remove asset</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_scope_delete display_value="">3bc44688e3764eefa83d5f4360c5beb9</sys_scope_delete>
+        <sys_update_name>sys_sg_button_instance_971acb681b3a1150152362c5604bcb03</sys_update_name>
+        <sys_update_version display_value="sys_sg_button_instance_971acb681b3a1150152362c5604bcb03">931acb681b3a1150152362c5604bcb07</sys_update_version>
+        <sys_updated_by>GD073B5L</sys_updated_by>
+        <sys_updated_on>2022-10-24 15:39:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

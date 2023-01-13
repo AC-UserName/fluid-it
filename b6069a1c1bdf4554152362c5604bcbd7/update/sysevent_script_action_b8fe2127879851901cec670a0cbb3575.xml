@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_script_action">
+    <sysevent_script_action action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_script/>
+        <description/>
+        <event_name>x_edfm_fluid_it.mobile_update_asset</event_name>
+        <name>[EDF] - Mobile update asset</name>
+        <order>100</order>
+        <script><![CDATA[var parm1 = event.parm1;
+var obj = JSON.parse(parm1); 
+
+if(obj.button_name == "swap")
+_swapAssetUpdate(obj);
+else 
+_otherAssetUpdate(obj);
+
+
+function _swapAssetUpdate(obj)
+{
+var oldAsset = new GlideRecord('alm_hardware');
+oldAsset.addQuery('asset_tag', obj.old_asset_tag);
+oldAsset.query();
+if(oldAsset.next())
+{
+var old_offre = _updateOffer(oldAsset.ci.sys_class_name, oldAsset.ci.sys_id,'swap', '');
+gs.info('cvi old_offre' + old_offre);
+var old_user = oldAsset.assigned_to.toString();
+oldAsset.u_last_discovered = obj.u_inventory_date;
+oldAsset.install_status = 6;
+oldAsset.substatus ="to_reset";
+oldAsset.stockroom = obj.stockroom;
+oldAsset.update();
+}
+
+var newAsset =  new GlideRecord('alm_hardware');
+newAsset.addQuery('asset_tag', obj.asset_tag);
+newAsset.query();
+if(newAsset.next())
+{
+newAsset.u_last_discovered = obj.u_inventory_date;
+newAsset.install_status = 1;
+newAsset.substatus ="used";
+newAsset.assigned_to = old_user;
+gs.info('cvi old_offre' + old_offre);
+_updateOffer(newAsset.ci.sys_class_name, newAsset.ci.sys_id,'swap',old_offre);
+newAsset.update();
+}
+}
+function _otherAssetUpdate(obj)
+{
+//variables	
+var button = obj.button_name;
+var user = "";
+var table = obj.sys_class_name;
+
+//get data from the current record 
+var task = new GlideRecord(table);
+task.addQuery('sys_id', obj.sys_id);
+task.query();
+if(task.next())
+{
+if(table == "sc_task")
+{
+if(button == "reservation" || button == "assignment" )
+user = task.request_item.requested_for;	
+}
+if(table == "incident")
+{
+if(button == "reservation"||  button == "assignment")
+user = task.caller_id;
+}
+}
+
+//update asset
+var hardware = new GlideRecord('alm_hardware');
+hardware.addQuery('asset_tag', obj.asset_tag);
+hardware.query();
+if(hardware.next()){
+hardware.u_last_discovered = obj.u_inventory_date;
+if(button == "assignment")
+{
+hardware.install_status = 1;
+hardware.substatus ="used";
+hardware.assigned_to = user;
+//_updateOffer(hardware.ci.sys_id,'add');
+}
+else
+{
+hardware.install_status = 6;
+hardware.stockroom = obj.stockroom;
+}
+	
+if(button == "reservation")
+{
+hardware.substatus = "reserved";
+hardware.reserved_for = user;
+}
+
+if(button == "retire")
+{
+hardware.substatus = "to_reset";
+_updateOffer(hardware.ci.sys_class_name, hardware.ci.sys_id,'retire', "");
+}
+	
+hardware.update();
+}
+}
+function _updateOffer(table,id,type,old_value)
+{
+var old = "";
+var ci = new GlideRecord(table);
+ci.addQuery('sys_id', id);
+ci.query();
+if(ci.next())
+{
+if(type == "swap")
+{
+old = ci.u_offre_dsp.toString();
+if(old_value != '')
+ci.u_offre_dsp = old_value;
+else
+ci.u_offre_dsp = "";
+}
+if(type == "add")
+ci.u_offre_dsp = "";
+if(type == "retire")
+ci.u_offre_dsp = "";
+
+ci.update();
+if(old !="")
+return old;
+}
+
+}
+]]></script>
+        <synchronous>false</synchronous>
+        <sys_class_name>sysevent_script_action</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-07-01 07:17:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b8fe2127879851901cec670a0cbb3575</sys_id>
+        <sys_mod_count>71</sys_mod_count>
+        <sys_name>[EDF] - Mobile update asset</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sysevent_script_action_b8fe2127879851901cec670a0cbb3575</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-07-05 08:24:06</sys_updated_on>
+    </sysevent_script_action>
+</record_update>

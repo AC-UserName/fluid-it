@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>asset_by_list</name>
+        <query_condition table="alm_asset">u_listLIKE{{list}}<item endquery="false" field="u_list" goto="false" newquery="false" operator="LIKE" or="false" value="{{list}}"/>
+        </query_condition>
+        <query_condition_script><![CDATA[(function getQueryString(input) {
+    //Type appropriate comment here, and begin script below
+    gs.info('cvi' + JSON.stringify(input))
+    var queryString = '';
+    return queryString; 
+})(input);]]></query_condition_script>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-05-17 08:46:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a9b452411bafc990152362c5604bcb99</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>asset_by_list</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_data_item_a9b452411bafc990152362c5604bcb99</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-09-07 15:57:51</sys_updated_on>
+        <table>alm_asset</table>
+    </sys_sg_data_item>
+</record_update>

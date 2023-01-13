@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_redirect_dest_field">
+    <sys_sg_redirect_dest_field action="INSERT_OR_UPDATE">
+        <button display_value="Asset selected">452958fe8799d1501cec670a0cbb35c4</button>
+        <button_table>sn_hamp_asset_audit_task</button_table>
+        <constant_value/>
+        <destination_ui_parameter display_value="sys_id">a0a7d47e8799d1501cec670a0cbb35bc</destination_ui_parameter>
+        <source_field>asset</source_field>
+        <source_ui_parameter/>
+        <sys_class_name>sys_sg_redirect_dest_field</sys_class_name>
+        <sys_created_by>cvigneron</sys_created_by>
+        <sys_created_on>2022-08-17 10:05:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4d29983287d9d1501cec670a0cbb35d5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>a0a7d47e8799d1501cec670a0cbb35bc</sys_name>
+        <sys_package display_value="Fluid'IT" source="x_edfm_fluid_it">b6069a1c1bdf4554152362c5604bcbd7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fluid'IT">b6069a1c1bdf4554152362c5604bcbd7</sys_scope>
+        <sys_update_name>sys_sg_redirect_dest_field_4d29983287d9d1501cec670a0cbb35d5</sys_update_name>
+        <sys_updated_by>cvigneron</sys_updated_by>
+        <sys_updated_on>2022-08-17 10:19:17</sys_updated_on>
+        <type>field</type>
+    </sys_sg_redirect_dest_field>
+</record_update>
